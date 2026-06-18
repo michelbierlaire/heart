@@ -9,8 +9,9 @@ from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
-from update_database import main as update_database
+from update_database import create_database
 import pandas as pd
+import yaml
 
 from committe_members import extract_committee
 from extract_conference import extract_conference, extract_conference_years
@@ -20,6 +21,49 @@ from list_of_members import extract_members
 DOCS = Path("docs")
 ASSETS = Path("assets")
 ABSTRACTS = DOCS / "abstracts"
+DATA = Path("data")
+CONTENT = DATA / "content.yml"
+
+
+def read_content() -> dict[str, Any]:
+    """Read editorial content from data/content.yml."""
+    if not CONTENT.exists():
+        return {}
+    with CONTENT.open(encoding="utf-8") as file:
+        content = yaml.safe_load(file)
+    if content is None:
+        return {}
+    if not isinstance(content, dict):
+        raise ValueError(f"{CONTENT} must contain a YAML mapping.")
+    return content
+
+
+def home_intro_html(content: dict[str, Any]) -> str:
+    """Return the introductory HTML for the home page."""
+    home = content.get("home", {})
+    if not isinstance(home, dict):
+        return ""
+
+    title = home.get("title")
+    paragraphs = home.get("paragraphs", [])
+    if isinstance(paragraphs, str):
+        paragraphs = [paragraphs]
+
+    if not title and not paragraphs:
+        return ""
+
+    title_html = f'<h2 class="h4 mt-4">{esc(title)}</h2>' if title else ""
+    paragraphs_html = "\n".join(
+        f'<p class="mb-2">{esc(paragraph)}</p>'
+        for paragraph in paragraphs
+        if paragraph is not None and str(paragraph).strip()
+    )
+    return f"""
+<section class="institutional-card p-4 mt-4">
+  {title_html}
+  {paragraphs_html}
+</section>
+"""
 
 
 def esc(value: Any) -> str:
@@ -121,36 +165,40 @@ def page(title: str, body: str, active: str = "") -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {{ background: #f8f9fa; }}
-    main {{ max-width: 1120px; }}
-    .flag {{ width: 28px; height: 21px; object-fit: cover; border: 1px solid #ddd; }}
-    .paper-title {{ max-width: 680px; }}
-    .conference-past {{ background: #ffffff; }}
-    .conference-future {{ background: #eaf4ff; }}
-    .conference-ongoing {{ background: #fff3cd; border: 2px solid #ff9800; }}
-    footer {{ color: #6c757d; }}
-  </style>
+  <link rel="stylesheet" href="assets/css/heart.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-white border-bottom">
-  <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="index.html">{logo_html()}</a>
-    <div class="navbar-nav ms-auto">
-      {nav("Home", "index.html", "home")}
-      {nav("Members", "members.html", "members")}
-      {nav("Committee", "committee.html", "committee")}
-      {nav("Conferences", "conferences.html", "conferences")}
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="index.html">
+        {logo_html()}
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          {nav("Home", "index.html", "home")}
+          {nav("Members", "members.html", "members")}
+          {nav("Committee", "committee.html", "committee")}
+          {nav("Conferences", "conferences.html", "conferences")}
+        </div>
+      </nav>
     </div>
   </div>
-</nav>
+</header>
 
 <main class="container py-4">
 {body}
 </main>
 
 <footer class="container py-4 small">
-  Generated on {date.today().isoformat()} by Michel Bierlaire.
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on {date.today().isoformat()} by Michel Bierlaire.</span>
+  </div>
 </footer>
 </body>
 </html>
@@ -214,6 +262,7 @@ def render_index(conferences: list[dict[str, Any]]) -> None:
     )
 
     next_conference_html = ""
+    intro_html = home_intro_html(read_content())
     if next_conference:
         status = conference_status(next_conference)
         heading = (
@@ -228,9 +277,9 @@ def render_index(conferences: list[dict[str, Any]]) -> None:
         conference_webpage = conference_webpage_html(next_conference)
 
         next_conference_html = f"""
-<div class="card shadow-sm mt-4">
-  <div class="card-body">
-    <h2 class="h4">{heading}</h2>
+<div class="institutional-card mt-4">
+  <div class="card-body p-4">
+    <h2 class="h4 section-title">{heading}</h2>
     <h3 class="h5">{esc(next_conference.get("name"))}</h3>
     <p class="mb-1"><strong>{esc(next_conference.get("dates"))}</strong></p>
     <p class="mb-1">
@@ -247,12 +296,12 @@ def render_index(conferences: list[dict[str, Any]]) -> None:
 """
 
     body = f"""
-<section class="bg-white p-4 p-md-5 rounded shadow-sm">
-  <h1 class="display-6">hEART</h1>
-  <p class="lead mb-0">
-    European Association for Research in Transportation.
-  </p>
+<section class="hero p-4 p-md-5">
+  <h1 class="display-5 mb-2">hEART</h1>
+  <p class="lead mb-1">European Association for Research in Transportation</p>
+  <p class="mb-0">Promoting excellence in transportation research in Europe.</p>
 </section>
+{intro_html}
 {next_conference_html}
 """
     (DOCS / "index.html").write_text(page("hEART", body, "home"), encoding="utf-8")
@@ -273,8 +322,8 @@ def render_members(members: pd.DataFrame) -> None:
         )
 
     body = f"""
-<h1>Members</h1>
-<div class="table-responsive bg-white rounded shadow-sm">
+<h1 class="section-title">Members</h1>
+<div class="table-responsive institutional-card">
 <table class="table table-hover align-middle mb-0">
 <thead class="table-light">
 <tr>
@@ -308,8 +357,8 @@ def render_committee(committee: pd.DataFrame) -> None:
         )
 
     body = f"""
-<h1>Committee</h1>
-<div class="table-responsive bg-white rounded shadow-sm">
+<h1 class="section-title">Committee</h1>
+<div class="table-responsive institutional-card">
 <table class="table table-hover align-middle mb-0">
 <thead class="table-light">
 <tr>
@@ -334,11 +383,9 @@ def render_conferences(conferences: list[dict[str, Any]]) -> None:
         year = int(c.get("year"))
         status = conference_status(c)
         card_class = f"conference-{status}"
-        abstract_status = (
-            "Abstracts available"
-            if read_papers(year)
-            else "No abstracts available"
-        )
+        has_abstracts = bool(read_papers(year))
+        abstract_status = "Abstracts available" if has_abstracts else "No abstracts available"
+        abstract_badge_class = "badge-abstracts" if has_abstracts else "badge-no-abstracts"
         cards.append(
             f"""
 <div class="col-md-6 col-lg-4">
@@ -350,7 +397,7 @@ def render_conferences(conferences: list[dict[str, Any]]) -> None:
         </a>
       </h2>
       <p class="mb-1">{esc(c.get("dates"))}</p>
-      <p class="small text-muted mt-2 mb-0">{abstract_status}</p>
+      <span class="badge rounded-pill {abstract_badge_class} mt-2">{abstract_status}</span>
     </div>
   </div>
 </div>
@@ -358,7 +405,7 @@ def render_conferences(conferences: list[dict[str, Any]]) -> None:
         )
 
     body = f"""
-<h1>Conferences</h1>
+<h1 class="section-title">Conferences</h1>
 <div class="row g-3">
 {''.join(cards)}
 </div>
@@ -396,8 +443,8 @@ def render_conference(conf: dict[str, Any]) -> None:
 
     papers_html = (
         f"""
-<h2 class="h4 mt-4">Abstracts</h2>
-<div class="table-responsive bg-white rounded shadow-sm">
+<h2 class="h4 section-title mt-4">Abstracts</h2>
+<div class="table-responsive institutional-card">
 <table class="table table-hover align-middle mb-0">
 <thead class="table-light">
 <tr>
@@ -417,7 +464,7 @@ def render_conference(conf: dict[str, Any]) -> None:
     )
 
     body = f"""
-<section class="bg-white p-4 rounded shadow-sm">
+<section class="institutional-card p-4">
   <h1>{esc(conf.get("name"))}</h1>
   <p class="lead mb-1">{esc(conf.get("dates"))}</p>
   <p class="mb-1">
@@ -437,7 +484,7 @@ def render_conference(conf: dict[str, Any]) -> None:
 
 
 def build_site(database: Path) -> None:
-    update_database()
+    create_database(database, DATA)
     clean_docs()
 
     members = extract_members(database)

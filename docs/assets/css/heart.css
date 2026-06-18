@@ -1,0 +1,138 @@
+:root {
+  --heart-blue: #16324f;
+  --heart-blue-light: #24496f;
+  --heart-accent: #b38b00;
+  --heart-border: #d9dee7;
+  --heart-bg: #f3f5f8;
+}
+
+body {
+  background: var(--heart-bg);
+  color: #1f2933;
+}
+
+main {
+  max-width: 1120px;
+}
+
+a {
+  color: var(--heart-blue-light);
+}
+
+a:hover {
+  color: var(--heart-blue);
+}
+
+.site-header {
+  background: #ffffff;
+  border-bottom: 4px solid var(--heart-blue);
+}
+
+.brand-title {
+  color: var(--heart-blue);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.brand-subtitle {
+  color: #5d6978;
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--heart-blue);
+  border-radius: 0.25rem;
+  margin-left: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  background: var(--heart-blue);
+  color: #ffffff;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--heart-blue), var(--heart-blue-light));
+  color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.2rem rgba(22, 50, 79, 0.18);
+}
+
+.hero .lead {
+  color: #e8edf4;
+}
+
+.institutional-card {
+  background: #ffffff;
+  border: 1px solid var(--heart-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.8rem rgba(22, 50, 79, 0.08);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--heart-blue);
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5 {
+  color: #ffffff;
+}
+
+.section-title {
+  border-bottom: 2px solid var(--heart-border);
+  padding-bottom: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.flag {
+  width: 28px;
+  height: 21px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.paper-title {
+  max-width: 680px;
+}
+
+.conference-past {
+  background: #ffffff;
+}
+
+.conference-future {
+  background: #eef5fb;
+  border-left: 5px solid var(--heart-blue-light);
+}
+
+.conference-ongoing {
+  background: #fff4cc;
+  border: 2px solid var(--heart-accent);
+}
+
+.badge-abstracts {
+  background: #e9f2ec;
+  color: #245c36;
+  border: 1px solid #c7decf;
+}
+
+.badge-no-abstracts {
+  background: #f1f3f5;
+  color: #667085;
+  border: 1px solid #dee2e6;
+}
+
+table thead th {
+  color: var(--heart-blue);
+  background: #eef1f5 !important;
+  border-bottom: 2px solid var(--heart-border);
+}
+
+footer {
+  color: #6c757d;
+  border-top: 1px solid var(--heart-border);
+}
