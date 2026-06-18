@@ -1,0 +1,163 @@
+authors,title,pdf_file
+Michael Levin and David Rey,A cutting-plane algorithm for the continuous network design problem based on value function cuts and outer approximation,hEART_2025_shortpaper_1.pdf
+"Kevin Riehl, Davide Pusino, Anastasios Kouvelas and Michail Makridis",Decentralized Variable Speed Limit Bellman Control,hEART_2025_shortpaper_3.pdf
+David Rey and Michael Levin,A Branch-and-Price-and-Cut Algorithm for Discrete Network Design Problems Under Traffic Equilibrium,hEART_2025_shortpaper_4.pdf
+"Lawrence Duncan, Thomas Rasmussen, David Watling and Ravi Seshadri",Optimal toll-pricing based on a dynamic multi-region MFD traffic model with elastic demand,hEART_2025_shortpaper_6.pdf
+"Leonard Arning, Mads Paulsen, Jeppe Rich and Heather Kaths",Active Mobility Cultures in Denmark and Germany,hEART_2025_shortpaper_7.pdf
+"Junianna Zatsarnaja, Katharina Reiter, Alwine Mohnen and Trond Nordfjaern",Behavioral Interventions and Individual Factors Influencing Electric Vehicle Drivers' Willingness to Charge Grid-Friendly,hEART_2025_shortpaper_9.pdf
+"Esta Qiu, David Rey and Travis Waller",Operationalizing Social Justice Theories in Transport Resource Allocation,hEART_2025_shortpaper_10.pdf
+Willy Kriswardhana and Domokos Esztergár-Kiss,Designing MaaS Packages based on User Group Patterns,hEART_2025_shortpaper_12.pdf
+Fred Shone and Tim Hillel,Activity Based Modelling with Deep Conditional Generation,hEART_2025_shortpaper_13.pdf
+"Margarita Gutjar, Chiara Calastri and Matthias Kowald",Electric vehicle ownership dynamics at household level: A stated adaptation experiment on the effects of pricing and incentive policies,hEART_2025_shortpaper_14.pdf
+Dimitrios Rizopoulos and Konstantinos Gkiotsalitis,On the extension of Electric Bus Charging Infrastructure considering Charging Scheduling and Energy Pricing,hEART_2025_shortpaper_16.pdf
+"Teethat Vongvanich, Jan Dirk Schmoecker, Wenzhe Sun, Francesco Viti and Federico Bigi",An Entropy-Based Approach for Origin and Destination Activity Flow Estimation using Crowdsourced Data,hEART_2025_shortpaper_18.pdf
+Sebastian Hörl and Aalae Benki,Data-driven analysis of urban logistics policies based on vehicle traces in the Copenhagen capital region,hEART_2025_shortpaper_20.pdf
+"Michelle Specktor, Felix Siebert and Yoram Shiftan","Exploring Pedestrian Stress Around E-Scooters in Urban Settings: A Cross-Cultural Comparison Between Tel Aviv in Israel and Copenhagen, Denmark.",hEART_2025_shortpaper_21.pdf
+"Aoi Watanabe, Ken Hidaka and Daisuke Fukuda",Endogenizing Choice Set Formation Using the Perturbed Utility Model,hEART_2025_shortpaper_22.pdf
+"Frederiek Backers, Dongyang Xia, Shadi Sharif Azadeh and Yousef Maknoon",Unified Optimization of Assortment Selection and Courier Routing for Meal Delivery Platforms,hEART_2025_shortpaper_24.pdf
+"Laurent Cazor, David Watling, Lawrence Duncan, Otto Nielsen and Thomas Rasmussen","A closed-form bounded route choice model accounting for heteroscedasticity, overlap, and choice set formation",hEART_2025_shortpaper_25.pdf
+Yulong Hu and Sen Li,RG-CQL: A Reward-Guided Conservative Q-Learning Framework for the Coordination of Ride-Pooling and Public Transit Services,hEART_2025_shortpaper_26.pdf
+C. Angelo Guevara-C,ACCOUNTING FOR THE CONSIDERATION SET IN DISCRETE CHOICE MODELS BASED ON HISTORICAL CHOICES,hEART_2025_shortpaper_29.pdf
+Namrata Gupta and Ludovic Leclercq,Assessing Macroscopic Fundamental Diagram Shapes for Bi-Modal Grid Networks,hEART_2025_shortpaper_30.pdf
+"Grzegorz Jamroz, Ahmet Onur Akman, Anastasia Psarou, Zoltan Varga and Rafal Kucharski",Social implications of coexistence of CAVs and human drivers in the context of route choice,hEART_2025_shortpaper_33.pdf
+"Laura Knappik, Lorena Silvana Reyes Rubiano and Sven Müller",Optimizing passengers’ boarding and alighting operations in urban mass transit,hEART_2025_shortpaper_35.pdf
+Silvio Nocera and Federico Cavallaro,Advancing Rural Mobility:  Cutting-Edge Performance of Integrated Demand-Responsive Transport,hEART_2025_shortpaper_36.pdf
+"Benjamin Cottreau, Ouassim Manout and Louafi Bouzouina",Improving public transit demand forecasting models in case of disruptions: an integrated approach using explainable AI,hEART_2025_shortpaper_39.pdf
+Androniki Dimitriadou and Konstantinos Gkiotsalitis,A multi-objective vehicle routing and public transport rescheduling model,hEART_2025_shortpaper_43.pdf
+"Hannah Hook, Tanhua Jin, Frank Witlox and Feixiong Liao",Who travels for travel’s sake?: Profiling undirected travelers and their (built) environments,hEART_2025_shortpaper_45.pdf
+"Amalie Roark, Guido Cantelmo and Francisco Camara Pereira",Learning to Learn the Macroscopic Fundamental Diagram using physic informed and meta Machine Learning techniques,hEART_2025_shortpaper_46.pdf
+Roshan Kotian and Feixiong Liao,Zero-shot learning for predicting transportation traffic volume,hEART_2025_shortpaper_47.pdf
+"Olha Shulika, Hanna Vasiutina, Michał Bujak, Farnoud Ghasemi and Rafał Kucharski","Selecting the most promising areas to introduce pooled feeder services when the demand is unknown: case study of Krakow, Poland",hEART_2025_shortpaper_48.pdf
+"Donghyun Lim, Hyungjoo Kim, Eugene Lee, Gyungtack Oh, Jiaqi Ma and Jaehyun So",Strategic Lane changes for Autonomous Buses: A Clustering Method to Approaching Vehicles,hEART_2025_shortpaper_50.pdf
+"Roosmarijn Terra, Francisco Garrido-Valenzuela, Oded Cats and Sander van Cranenburgh",Understanding cycling route choice behaviour through street-level images and computer vision-enriched discrete choice models,hEART_2025_shortpaper_52.pdf
+"Ramandeep Singh, Hannah Hook, Wafa Elias and Constantinos Antoniou",Gender disparities in travel behaviour and leisure: A Tel-Aviv metropolis Time-Use study,hEART_2025_shortpaper_53.pdf
+"Chengqi Lu, Christian Rakow and Kai Nagel",An improved procedure for simulation of demand-responsive transport services in agent-based transport simulation framework,hEART_2025_shortpaper_57.pdf
+"Ana Tsui Moreno, Yangqian Cai and Anna Takayasu",Empirical Insights into Rural Bicycle Facility Design: A User-Centered Approach to Define Level of Traffic Stress Criteria,hEART_2025_shortpaper_58.pdf
+Hamidreza Babaeighazvini and Mohsen Ramezani,Decentralized trip-based traffic signal control,hEART_2025_shortpaper_62.pdf
+"Mathilde Nemer, Fayçal Touzout and Christine Buisson",Car-free cities: how to reorganize urban mobility ?,hEART_2025_shortpaper_63.pdf
+"Ariane Kehlbacher, Gregor Rybczak, Felix Rauch and Jens Hellekes",Estimating Parking Search Times for Transport Modelling in Europe: A Hierarchical Bayes Approach with Cross-Regional Data Integration,hEART_2025_shortpaper_64.pdf
+"Nejc Geržinič, Mark Van Hagen, Hussein Al-Tamimi, Dorine Duives and Niels van Oort","From Bold Innovators to Anxious Observers, who will use shared micromobility as a train station egress mode? A Latent Class Cluster Analysis approach",hEART_2025_shortpaper_65.pdf
+"Anders Fjendbo Jensen, Stefan Eriksen Mabit and Jeppe Rich",Quantifying Consumer Preferences for Vehicle-to-Grid Charging Across Europe,hEART_2025_shortpaper_68.pdf
+"Giovanni Tataranno, Federico Bigi and Francesco Viti",Dynamic OD Matrix Estimation using Data-Driven Modelling under Data-Scarcity: an application of Gaussian Process,hEART_2025_shortpaper_69.pdf
+"Edith Combes, Louafi Bouzouina and Ouassim Manout",The impact of the built environment on car parking duration,hEART_2025_shortpaper_70.pdf
+Patrick Stokkink and Nikolas Geroliminis,On the optimal micro-hub locations in a multi-modal last-mile delivery system,hEART_2025_shortpaper_71.pdf
+Sander Van Cranenburgh and Francisco Garrido-Valenzuela,A utility-based spatial analysis of residential street-level conditions;  A case study of Rotterdam,hEART_2025_shortpaper_73.pdf
+"Sungmin Yoo, Hanuel Park, Chiwoo Roh, Sungeun Cho and Jaehyun So",Proactive Prediction of Child Pedestrian Trajectories Using Trajectory Unified Transformer (TUTR) Models,hEART_2025_shortpaper_76.pdf
+Dongze Li and Fangni Zhang,Joint Optimization of Incentive and Routing for Crowdsourced Last-mile Delivery,hEART_2025_shortpaper_77.pdf
+"Mirosława Łukawska, Kuan-Yeh Chou, Mads Paulsen, Thomas Kjær Rasmussen and Otto Anker Nielsen",Explicit safety indicators in bicycle route choice modelling,hEART_2025_shortpaper_78.pdf
+"Muhamad Rizki, Tri Basuki Joewono, Yusak Susilo, Muhammad Zudhy Irawan and Prawira Fajarindra Belgiawan",Exploring the spatiotemporal impact of e-shopping usage within SuperApps on daily time use,hEART_2025_shortpaper_79.pdf
+"Simone Paradiso, Apostolos Ziakopoulos and George Yannis",The use of Graph Neural Networks for Clustering in Road Safety Analysis,hEART_2025_shortpaper_84.pdf
+"Tao Peng, Jie Gao and Oded Cats",Uncertainty-aware probabilistic travel demand forecasting for Mobility-on-Demand services,hEART_2025_shortpaper_85.pdf
+Anita Lyubenova and Fariya Sharmeen,Gamification and engagement with a cycling intervention: the effects of short- and long-term goal setting in promoting behavior change,hEART_2025_shortpaper_86.pdf
+"Dimitrios Argyros, Anders F. Jensen and Jeppe Rich",Assessing Public Transport Fares in Denmark: An Optimal Welfare Approach,hEART_2025_shortpaper_87.pdf
+Daniel Hörcher and Daniel Graham,A quantitative urban model for transport appraisal: Model estimation,hEART_2025_shortpaper_89.pdf
+Matina Chau and Konstantinos Gkiotsalitis,Feeder transit integration with high frequency trunk lines,hEART_2025_shortpaper_90.pdf
+"Chenghua Yang, Yousef Maknoon, Hai Jiang and Shadi Sharif Azadeh",Mobile fleet inventory: An integrated approach to fleet management for an on-demand delivery system,hEART_2025_shortpaper_91.pdf
+"Vianey Darsel, Etienne Côme and Latifa Oukhellou",Population Synthesis with Deep Generative Models - is it worth it? Exploring new models and metrics,hEART_2025_shortpaper_95.pdf
+"Ivana Paulusová, Fariya Sharmeen and Qian Wang",Perceived Accessibility Scale adapted to cycling: What insights can it provide in the context of Stockholm?,hEART_2025_shortpaper_97.pdf
+"Giovanni Albano, Stefano Tarantola, Lorenzo de Ambrosis, Federico Ferretti, Biagio Ciuffo and Bat-Hen Nahmias-Biran",Credit-based Scheme for Managing Electric Vehicle Charging Stations: First Results from a Field-Experiment,hEART_2025_shortpaper_102.pdf
+"Nicolas Schoenn-Anchling, Silvia Varotto and Ludovic Leclercq",Does a tradable credit scheme with a trading component influence mode choice? Insights from an SP experiment,hEART_2025_shortpaper_105.pdf
+"Nandan Maiti, Manon Seppecher and Ludovic Leclercq",Upscaling Macroscopic Fundamental Diagram Estimation From the Equipped to Full Networks,hEART_2025_shortpaper_107.pdf
+"Cristian Domarchi, Elisabetta Cherchi and Quoc C. Vuong",Forecasting the diffusion of electric vehicles: An agent-based model including household choice and social effects of coherence and communication,hEART_2025_shortpaper_109.pdf
+"Tina Šfiligoj, Aljoša Peperko and Oded Cats",Access graph: a novel graph representation of public transport networks for accessibility analysis,hEART_2025_shortpaper_110.pdf
+"Huichang Lee, Jason Hawkins, Prateek Bansal, Dong-Kyu Kim and Eui-Jin Kim",Multiple Discrete-Continuous Choice Models with Flexible and Partially Monotonic Utility Functions,hEART_2025_shortpaper_116.pdf
+"Marisdea Castiglione, Guido Cantelmo, Ernesto Cipriani, Andrea Gemma and Marialisa Nigro",A GLS approach for Origin-Destination Matrices Estimation accounting for Spatio-Temporal Flexibility and Congestion,hEART_2025_shortpaper_125.pdf
+Xinyu Ma and Kenan Zhang,A tri-level model for the strategic game between the mobility-as-a-service (MaaS) platform and on-demand operators,hEART_2025_shortpaper_127.pdf
+"Yifan Zhang, Vincent van den Berg, Erik Verhoef and Meng Xu",Modeling Day-to-Day Modes Choices with Heterogeneous Travelers under MaaS Scenarios,hEART_2025_shortpaper_133.pdf
+"Germán Pardo-González, Shaghayegh Vosough, Katerina Papadaki and Claudio Roncoli",Dynamic Incentives for Efficient Traffic Management: A Reinforcement Learning Approach,hEART_2025_shortpaper_134.pdf
+"Chenyang Wu, Duoqi Zhang, Chenlei Xue and Aruna Sivakumar",Air Travelers' Preferences for Multimodal Urban Air Mobility (UAM) as an Airport Shuttle: A Stated Preference Study,hEART_2025_shortpaper_135.pdf
+"Marcello Montanino, Ilaria Natale, Chiara Fiori and Vincenzo Punzo",A traffic-augmented macroscopic model of electric vehicle energy consumption,hEART_2025_shortpaper_136.pdf
+Rui Yao and Kenan Zhang,Perturbed utility Markovian choice model: choice probability generation function and estimation,hEART_2025_shortpaper_138.pdf
+"Réka Kertész-Doffkay, Dániel Hörcher and Stefan Tscharaktschiew",Urban Sprawl and Public Transport: A Quantitative Spatial Model for a Railway Policy in Budapest,hEART_2025_shortpaper_140.pdf
+Daniele De Santis and Alejandro Tirachini,Optimal road taxation for electric cars in Europe,hEART_2025_shortpaper_141.pdf
+"Peiling Wu, Emma Engström and Fariya Sharmeen",Addressing the missing location problem in trip chain data: A POI-based probabilistic function method using open data,hEART_2025_shortpaper_142.pdf
+"Ioannis Kaparias, Anthony Ainemukama and Sergio Batista",The impact of integrated street design on flow-density curves:  An empirical analysis for motorised and pedestrian traffic,hEART_2025_shortpaper_143.pdf
+"Mehdi Baali, Rémi Coulaud and Christine Buisson",Modeling intra-rail transfer volumes in a suburban train station using passengers counting data,hEART_2025_shortpaper_144.pdf
+"Mostafa Ayman Ilham, Achille Fonzone, Grigorios Fountas and Luca Mora",What are the Determinants of Residential Relocation Intentions of Scottish Residents Post-Pandemic?,hEART_2025_shortpaper_146.pdf
+Peyman Hashemi Baragoori and Margarita Martínez-Díaz,Income Stratification in Urban Accessibility: the case of Barcelona,hEART_2025_shortpaper_147.pdf
+Xing Tong and Michele Simoni,Robust Route Planning for Sidewalk Robot Delivery,hEART_2025_shortpaper_148.pdf
+Marija Kukic and Michel Bierlaire,A Dynamic Perspective on Synthetic Populations: Simulation Framework for Longitudinal Synthetic Population Generation,hEART_2025_shortpaper_149.pdf
+"Qiuju Xue, Baiba Pudane and Maarten Kroesen",Do Telework Locations Influence Subjective Well-Being: A Latent Class Cluster Analysis of Post-Pandemic Data in the Netherlands,hEART_2025_shortpaper_151.pdf
+Clemence de Rolland and Caroline Bayart,Rethinking traffic count methodologies to derive OD matrices from aggregated mobile phone data,hEART_2025_shortpaper_152.pdf
+Tom Haering and Michel Bierlaire,BHAMSLE: A Breakpoint Heuristic Algorithm for Maximum Simulated Likelihood Estimation of Advanced Discrete Choice Models,hEART_2025_shortpaper_153.pdf
+"Yu Wang, Thomas Hancock, Oliver Hauser, Jorge Garcia de Pedro, Albert Solernou Crusat, Yacan Wang and Charisma Choudhury",Nudging Travellers Towards Greener Modes: A Virtual Reality Experiment,hEART_2025_shortpaper_156.pdf
+"Aurojeet Jena, David S. Bunch and Giovanni Circella",Analyzing Post-COVID Commuting Preferences and Frequencies in California: A  Hybrid Multiple Discrete-Continuous Extreme Value Approach,hEART_2025_shortpaper_159.pdf
+"Sara Gharavi, Rakibul Hassan, Hamed Naseri, Jean Dubé and Francesco Ciari",Exploring the Effects of Teleworking on Travel Patterns: A Simulation-Based Study with MATSim,hEART_2025_shortpaper_161.pdf
+"Anke Ye, Kenan Zhang, Xiqun Chen and Simon Hu",Modeling the Partnership between On-Demand Meal Delivery Platform and Restaurants in a Three-Sided Market,hEART_2025_shortpaper_164.pdf
+"Ashraf Uz Zaman Patwary, Francesco Ciari, Hamed Naseri and Arsham Bakhtiari",A Framework for Solving Sequential Charging Facility Location Estimation Problem in Urban Setting,hEART_2025_shortpaper_166.pdf
+"Mahan Mollajafari, Zachary Patterson and Bilal Farooq",Exploring the Potential of Large Language Models in Daily Travel Activity Pattern Prediction,hEART_2025_shortpaper_168.pdf
+"Keren-Or Grinberg Rosenbaum, Francisco Pereira, Bat-Hen Nahmias-Biran and Yoram Shiftan",Predicting Public Transport Resilience to Climate Extremes: A Hybrid Dynamical Systems Thinking Approach,hEART_2025_shortpaper_169.pdf
+Doosun Hong and Sunghoon Jang,Leveraging Heteroskedastic Extreme Value Frameworks to Specify Nested Tree Structures in Weibit Choice Models,hEART_2025_shortpaper_170.pdf
+"Sorath Shah, Tomeš Zdeněk and Pařil Vilém","From Spontaneity to Planning: Understanding Long-Distance Travelers' Mode Choice Preferences for BlaBla Carpooling, Bus, and Train in Central Europe",hEART_2025_shortpaper_172.pdf
+"Euntak Lee, Serio Agriesti, Shaghayegh Vosough, Charalampos Sipetas, Claudio Roncoli, Marco Rinaldi and Ludovic Leclerq",Defining Seamless Multimodal Transportation through Four Key Principles: A Systematic Approach,hEART_2025_shortpaper_173.pdf
+"David Kohlrautz, Ingmar Seitz and Tobias Kuhnimhof",Discrete Choice Modeling of Car Parking Search Behavior,hEART_2025_shortpaper_174.pdf
+"Beiyu Song, Changlin Li, Edward Chung and Hongbo Ye",Balancing Confidence and Precision: A Framework for Real-Time Bus Arrival Time Prediction with Uncertainty Quantification,hEART_2025_shortpaper_176.pdf
+Vamsi Krishna Gongalla and Manoj Malayath,Exploring ride-hailing mode preferences -a stated choice study considering social and spatial proximities and attitudes,hEART_2025_shortpaper_177.pdf
+"Gabriel Nova, Sander van Cranenburgh and Stephane Hess",Improving choice model specification using reinforcement learning,hEART_2025_shortpaper_178.pdf
+"Siyu Zhuo, Pan Shang, Zhengke Liu and Feixiong Liao",Real-time coordinated estimation of passenger demand of urban rail transit and network-wide passenger flow dynamics in a computational-graph framework,hEART_2025_shortpaper_179.pdf
+"Yahan Lu, Lixing Yang, Jiateng Yin and Shadi Sharif Azadeh",Integrated demand-side management and timetabling for an urban transit system,hEART_2025_shortpaper_182.pdf
+"Christoph Garritsen, Oliver Ludwig and Björn Strasdat",Optimizing MaaS for Commuters: Exploring Ride-Pooling Potentials,hEART_2025_shortpaper_186.pdf
+"Tal Kraicer, Jack Haddad, Erez Karpas and Moshe Tennenholtz",Towards Hybrid Traffic Laws for Mixed Flow of Human-driven Vehicles and Connected and Autonomous Vehicles,hEART_2025_shortpaper_189.pdf
+Niloofar Yavari and Eiji Hato,Intentions and Influences: Foreigners' Residents Relocation Decisions in Japan,hEART_2025_shortpaper_191.pdf
+Tingting Fan and Edward Chung,Multi-Agent Reinforcement Learning for CAV Cooperative Merging Considering Communication Failure,hEART_2025_shortpaper_192.pdf
+Nicolas Salvadé and Tim Hillel,Assisted specification of discrete choice models with piece-wise linear utility functions,hEART_2025_shortpaper_197.pdf
+Minru Wang and Nikolas Geroliminis,Dynamic two-level optimization for ride-sourcing vehicle dispatch,hEART_2025_shortpaper_202.pdf
+Markus Friedrich and Jürgen Bawidamann,Journey times from network characteristics and traffic states,hEART_2025_shortpaper_203.pdf
+"Christian Wirtgen, Matthias Kowald and Johannes Luderschmidt",Demand Forecasting with Machine-Learning Models for Bike-Sharing-Systems based on Open Data,hEART_2025_shortpaper_205.pdf
+"Hesam Rashidi, Mehdi Nourinejad and Matthew Roorda",Strategic API Calls to Retrieve the Cost Matrix in the Travelling Salesman Problem,hEART_2025_shortpaper_212.pdf
+"Yuxing Cheng, Marco Rinaldi, Serge Hoogendoorn and Bart van Arem",A utility-based traffic sensor network optimization for data-driven traffic prediction,hEART_2025_shortpaper_213.pdf
+Tareq Alsaleh and Bilal Farooq,Generative AI Agents for Travel Behaviour: Applications in Surveys and Modelling,hEART_2025_shortpaper_216.pdf
+"Felix Petre, Lasse Bienzeisler and Bernhard Friedrich",Introducing a novel Location-Assignment Algorithm for Activity-Based Transport Models: CARLA,hEART_2025_shortpaper_218.pdf
+"Franz-Xaver Rupprecht, Gunnar Flötteröd and Yusak Susilo",Metropolis-Hasting based synthesis of all-day round-trips from OD-matrices and limited population segmentation,hEART_2025_shortpaper_219.pdf
+Maytal Aaron Sirote and Sigal Kaplan,"Linking cognition, spatial syntax and network use - a bivariate ordered probit for link memory fluency and use frequency",hEART_2025_shortpaper_222.pdf
+Xinyu Zhang and Meng Wang,Optimal Control–Based Modeling of Cyclist Behavior,hEART_2025_shortpaper_225.pdf
+"Ning Xie, Jyotirmaya Ijaradar, Lei Wei, Sebastian Pape, Matthias Körner and Meng Wang",Short-term Impacts of Carola Bridge Collapse on Road Traffic,hEART_2025_shortpaper_226.pdf
+"Paul de Nailly, Etienne Côme, Rico Krueger and Latifa Oukhellou",Discrete Choice Modeling for Modal Disaggregation of Mobile OD Flows: Comparison  with Smart Card Data,hEART_2025_shortpaper_230.pdf
+"Francisco Garrido-Valenzuela, Max Lange, Juan Carlos Herrera and Oded Cats",Road network classification based on street-level images and its machine learning embedding features,hEART_2025_shortpaper_232.pdf
+"Jakob Rehmann, Johanna Bänsch and Kai Nagel",Accessibility of Pooled Demand Responsive Transport,hEART_2025_shortpaper_233.pdf
+"Ying-Chuan Ni, Anna Schönhärl, Michail Makridis and Anastasios Kouvelas",Estimation of dynamic origin-destination demand for urban road networks incorporating a region-level traffic flow model,hEART_2025_shortpaper_234.pdf
+"Danya Li, Yan Feng and Rico Krueger",Understanding Pedestrian Behavior in Shared Spaces: A Virtual Reality Study of Automated Shuttle Interactions,hEART_2025_shortpaper_236.pdf
+"Stella Roussou, Apostolos Ziakopoulos and George Yannis","Predictive Modeling of Pedestrian Violations Using Ensemble Learning: A Case Study at an Urban Intersection in Athens, Greece",hEART_2025_shortpaper_240.pdf
+"Yu Zhang, Ren-Yong Guo and Zhenliang Ma",Understanding the lock-in effect of on-demand ride-hailing services,hEART_2025_shortpaper_241.pdf
+"Katrin Lubashevsky, Iryna Okhrin, Stefan Huber and Sven Lißner",Modeling Cycling Route Choice Using Convolutional Neural Networks,hEART_2025_shortpaper_242.pdf
+"Georgia Charalampidou, Gunnar Flötteröd and Yusak Susilo",Sampling Weekly Activity Schedules to Analyze Shopping Behavior under the 15-Minute City Concept,hEART_2025_shortpaper_243.pdf
+Michael van Eggermond and Dorothea Schaffner,Where should speed-pedelecs ride? Perspectives from riders versus other road users,hEART_2025_shortpaper_244.pdf
+"Alfredo J. Ojeda-Diaz, Rico Krueger, Sonja Haustein and Maarten Kroesen",Exploring dynamic relationships between travel behaviour and attitudes using a psychometric network approach,hEART_2025_shortpaper_246.pdf
+Gunnar Flötteröd,An operational alternative to origin/destination matrices,hEART_2025_shortpaper_248.pdf
+"Armira Kontaxi, Konstantinos Fotopoulos and George Yannis",Preferences of Public Transport Passengers Towards Contactless Card Payments - The Case of Greece,hEART_2025_shortpaper_249.pdf
+"Lara Damer, Daniel Weiss, Alexis Nsamzinshuti and Johannes Gruber",When Urban Policy Meets Technological Niche: MLP-Informed Lessons from Multi-City FCCP Initiatives,hEART_2025_shortpaper_251.pdf
+"Vincent Bories, Rémi Coulaud, Yanan Xin and Oded Cats",Olympic Games passenger flow analysis and forecasting,hEART_2025_shortpaper_259.pdf
+Senkai Xie and Feixiong Liao,"Longitudinal analysis of dynamic relationships between working from home, commute distance, mode preference, and car use",hEART_2025_shortpaper_263.pdf
+"Benjamin Gramsch, Adrienne Grêt-Regamey and Kay Axhausen",Exploring the impact of increasing accessibility by proximity on leisure social diversity: An Agent-based model approach to 15-minute cities.,hEART_2025_shortpaper_269.pdf
+Kai Nagel and Kai Martins-Turner,Influence of more elastic demand models on the cost benefit analysis of road infrastructure projects in Germany,hEART_2025_shortpaper_270.pdf
+"Olivia Gold, Vera Kretschmer, Astrid Gühnemann and Maria Juschten","How does transport poverty affect commuting in Vienna? Findings of a qualitative study on mobility disadvantaged groups, their perceptions and coping strategies",hEART_2025_shortpaper_272.pdf
+"Tarek Chouaki, Sebastian Hörl, Oliver Ludwig, Steffen Axer and Hannes Rewald",Simulating on-demand person and food transport with intra-day vehicle reconfiguration in Paris,hEART_2025_shortpaper_273.pdf
+"Thomas Hancock, Charisma Choudhury, Jorge Garcia, Albert Solernou and Stephane Hess",An adapted decision field theory model for capturing the impact of experiences on preferential change for new travel modes.,hEART_2025_shortpaper_274.pdf
+"Jaime Sierra Muñoz, Louison Duboz, Paola Pucci and Biagio Ciuffo",From space to personal attitudes: understanding car dependence in Lombardy (Italy),hEART_2025_shortpaper_275.pdf
+"Lucas Meyer de Freitas, Shlomo Bekhor and Kay Axhausen",Exploring the substitution potential from car trips towards bikes and e-bikes through radical policies: First results,hEART_2025_shortpaper_277.pdf
+"Pengbo Zhu, Giancarlo Ferrari-Trecate and Nikolas Geroliminis",A Detour Planning Algorithm for Ride-Pooling Vehicles with Available Seats,hEART_2025_shortpaper_280.pdf
+"Mingjia He, Andrea Censi, Emilio Frazzoli and Gioele Zardini",A Game-Theoretic Framework for Enhancing Cooperation in Network Design Problems,hEART_2025_shortpaper_281.pdf
+"Shadi Haj-Yahia, Omar Mansour and Tomer Toledo",A Grammar-Based Framework for Utility Function Specification: Validation with Synthetic Data,hEART_2025_shortpaper_284.pdf
+Pavel Ilinov and Michel Bierlaire,Keep it Simple: Addressing Rare Events in Data Synthesis Using Beta Divergence,hEART_2025_shortpaper_286.pdf
+"Marzieh Afsari, Ken Koshy Varghese, Lory Michelle Bresciani Miristice and Guido Gentile",Promoting Sustainable Mobility: Understanding Commuter Mode Choices through Predictive Modeling,hEART_2025_shortpaper_287.pdf
+"Dion Mol, Alessandro Bombelli, Oded Cats and Frederik Schulte",Potential Profitability of a European High-Speed Rail Network,hEART_2025_shortpaper_288.pdf
+"Susan Eldhose, Bhargava Rama Chilukuri and Chandrasekharan Rajendran",Leader-follower identification methodology for non-lane disciplined heterogeneous traffic using steady state features,hEART_2025_shortpaper_289.pdf
+Alex Erath and Michael van Eggermond,Modelling Pedestrian Traffic in and Around Swiss Railways Stations,hEART_2025_shortpaper_290.pdf
+"Siyu Gao, Georg Pflug, Stefan Hochrainer-Stigler, Shadi Shirazian, Philip J. Ward and Elco E. Koks",Evaluating flood impact for improving the resilience of urban multi-modal  transportation networks,hEART_2025_shortpaper_293.pdf
+"Negar Rezvany, Frédéric Docquier, Tim Hillel and Michel Bierlaire",Integrating housing and transport interactions: A strategic dynamic approach,hEART_2025_shortpaper_294.pdf
+"Sara Momen, Yousef Maknoon, Bart van Arem and Shadi Sharif Azadeh",Designing a Robust Charging Infrastructure for Battery-Eelectric Buses with Sparse Energy Consumption Data,hEART_2025_shortpaper_298.pdf
+"Alexander Hammerl, Ravi Seshadri, Thomas Kjær Rasmussen and Otto Anker Nielsen",Improving Travel Time Reliability with Variable Speed Limits,hEART_2025_shortpaper_299.pdf
+Eva Payet and Francesco Ciari,Modeling and Optimizing Shared Autonomous Vehicle Fleets for Long-Distance Intercity Travel,hEART_2025_shortpaper_300.pdf
+"Eva Michelaraki, Thodoris Garefalakis, Constantinos Antoniou, Tom Brijs and George Yannis",Driver and road environment assessment for identifying Safety Tolerance Zone using machine learning techniques,hEART_2025_shortpaper_302.pdf
+"Jing Lyu, Feixiong Liao and Soora Rasouli",Activity-travel pattern choice modeling within space-time prisms,hEART_2025_shortpaper_304.pdf
+Md. Rifat Hossain Bhuiyan and Muhammad Ahsanul Habib,A Bioinspired Sequence Alignment Approach for Modeling Weekly Activity Patterns,hEART_2025_shortpaper_311.pdf
+"Hiroshi Uemura, Giancarlos Parady, Lichen Luo and Kiyoshi Takami",The impact of availability of bike sharing systems on rental housing price in Japanese regional cities,hEART_2025_shortpaper_314.pdf
+"Sung-Yoo Lim, Koki Sato, Kiyoshi Takami, Giancarlos Parady and Eui-Jin Kim",Can Large Language Models Understand Dynamic Joint Decision-Making Processes? Evidence on Destination Choice for Leisure Activities,hEART_2025_shortpaper_316.pdf
+Apurwa Dhoke and Pushpa Choudhary,Can Time Pressure Compromise Pedestrian Safety? Exploring Situational Awareness in Virtual Reality,hEART_2025_shortpaper_318.pdf
+"Janak Parmar, Paolo Delle Site and Dilum Dissanayake",Analysing intentions to adopt shared electric mobility using structural equation modelling approach,hEART_2025_shortpaper_326.pdf
+"Ioannis Tzachristas, Santhanakrishnan Narayanan and Constantinos Antoniou",Guided Persona-based AI Surveys: Can we replicate personal mobility preferences at scale using LLMs?,hEART_2025_shortpaper_327.pdf
+"Lynn Fayed, Gustav Nilsson and Nikolas Geroliminis",A macroscopic comparison approach for substitutionary on-demand flexible micro-transit services,hEART_2025_shortpaper_328.pdf
+"Simanta Barman, Arian Zare, Michael Levin and Raphael Stern",Analysis of a Maximum Throughput Ramp-metering Control,hEART_2025_shortpaper_331.pdf
+"Zenghao Hou, Louis Balzer and Ludovic Leclercq",Dynamic Rebalancing On-Demand Service Operations for Sustainable Transportation with a Tradable Credit Scheme,hEART_2025_shortpaper_333.pdf
+Yangqian Cai and Mads Paulsen,Using Bayesian online changepoint detection to reveal the impact of weather on individual-level cycling frequencies,hEART_2025_shortpaper_334.pdf
+Ran Chen and Nikolas Geroliminis,Static Equilibrium of Vehicle Dispatching in Multi-regional Ride-Hailing Markets,hEART_2025_shortpaper_336.pdf
