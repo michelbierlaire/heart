@@ -1,0 +1,245 @@
+- id: heart_2012_latsis_symposium_2012_1st_european_symposium_on_quantitative_methods_in_transportation_systems
+  year: 2012
+  name: 'Latsis symposium 2012: 1st European Symposium on Quantitative Methods in Transportation Systems'
+  url: http://latsis2012.epfl.ch/
+  venue: epfl
+  period: September 4-8, 2012
+  start_date: 2012-09-04
+  end_date: 2012-09-08
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: nikolas_geroliminis
+    order: 1
+  - person: michel_bierlaire
+    order: 2
+  legacy_id: 1
+- id: heart_2013_heart_2013_2nd_symposium_of_the_european_association_for_research_in_transportation
+  year: 2013
+  name: 'hEART 2013: 2nd Symposium of the European Association for Research in Transportation'
+  url: http://www.kth.se/en/abe/centra/cts/heart
+  venue: kth
+  period: September 4-6, 2013
+  start_date: 2013-09-04
+  end_date: 2013-09-06
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: jonas_eliasson
+    order: 1
+  legacy_id: 2
+- id: heart_2014_heart_2014_3nd_symposium_of_the_european_association_for_research_in_transportation
+  year: 2014
+  name: 'hEART 2014: 3nd Symposium of the European Association for Research in Transportation'
+  url: http://heart2014.eu/
+  venue: its_leeds
+  period: September 10-12, 2014
+  start_date: 2014-09-10
+  end_date: 2014-09-12
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: mark_wardman
+    order: 1
+  - person: st_phane_hess
+    order: 2
+  legacy_id: 3
+- id: heart_2015_heart_2015_4th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2015
+  name: 'hEART 2015: 4th Symposium of the European Association for Research in Transportation'
+  url: http://www.heart2015.transport.dtu.dk/
+  venue: dtu
+  period: September 9-11, 2015
+  start_date: 2015-09-09
+  end_date: 2015-09-11
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: mogens_fosgerau
+    order: 1
+  legacy_id: 4
+- id: heart_2016_heart_2016_5th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2016
+  name: 'hEART 2016: 5th Symposium of the European Association for Research in Transportation'
+  url: http://www.heart2016.org/
+  venue: tu_delft
+  period: September 14-16, 2016
+  start_date: 2016-09-14
+  end_date: 2016-09-16
+  is_finished: true
+  abstracts_available: false
+  chairs:
+  - person: serge_hoogendoorn
+    order: 1
+  - person: caspar_chorus
+    order: 2
+  - person: oded_cats
+    order: 3
+  legacy_id: 5
+- id: heart_2017_heart_2017_6th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2017
+  name: 'hEART 2017: 6th Symposium of the European Association for Research in Transportation'
+  url: http://heart2017.net.technion.ac.il/
+  venue: israel_institute_of_technology
+  period: September 12-24, 2017
+  start_date: 2017-09-12
+  end_date: 2017-09-24
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: jack_haddad
+    order: 1
+  legacy_id: 6
+- id: heart_2018_heart_2018_7th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2018
+  name: 'hEART 2018: 7th Symposium of the European Association for Research in Transportation'
+  url: https://www.events.tum.de/frontend/index.php?sub=94
+  venue: ntua
+  period: September 5-7, 2018
+  start_date: 2018-09-05
+  end_date: 2018-09-07
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: constantinos_antoniou
+    order: 1
+  legacy_id: 7
+- id: heart_2019_heart_2019_8th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2019
+  name: 'hEART 2019: 8th Symposium of the European Association for Research in Transportation'
+  url: http://heart2019.bme.hu/
+  venue: bme
+  period: September 4-6, 2019
+  start_date: 2019-09-04
+  end_date: 2019-09-06
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: domokos_esztergar_kiss
+    order: 1
+  legacy_id: 8
+- id: heart_2020_heart_2020_9th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2020
+  name: 'hEART 2020: 9th Symposium of the European Association for Research in Transportation'
+  url: https://heart2020.sciencesconf.org/
+  venue: universit_de_lyon
+  period: February 3-4, 2021
+  start_date: 2021-02-03
+  end_date: 2021-02-04
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: patrick_bonnel
+    order: 1
+  - person: guillaume_monchambert
+    order: 2
+  legacy_id: 9
+- id: heart_2022_heart_2022_10th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2022
+  name: 'hEART 2022: 10th Symposium of the European Association for Research in Transportation'
+  url: https://heart2022.com
+  venue: kul
+  period: June 1-3, 2022
+  start_date: 2022-06-01
+  end_date: 2022-06-03
+  is_finished: true
+  abstracts_available: false
+  chairs:
+  - person: chris_tampere
+    order: 1
+  - person: francesco_viti
+    order: 2
+  legacy_id: 11
+- id: heart_2023_heart_2023_11th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2023
+  name: 'hEART 2023: 11th Symposium of the European Association for Research in Transportation'
+  url: https://heart2023.ethz.ch/
+  venue: ethz
+  period: September 6-8, 2023
+  start_date: 2023-09-06
+  end_date: 2023-09-08
+  is_finished: false
+  abstracts_available: false
+  chairs:
+  - person: kay_axhausen
+    order: 1
+  legacy_id: 12
+- id: heart_2024_heart_2024_12th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2024
+  name: 'hEART 2024: 12th Symposium of the European Association for Research in Transportation'
+  url: https://heart2024.aalto.fi
+  venue: aalto_university
+  period: June 18-20, 2024
+  start_date: 2024-06-18
+  end_date: 2024-06-20
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: claudio_roncoli
+    order: 1
+  legacy_id: 13
+- id: heart_2025_heart_2025_13th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2025
+  name: 'hEART 2025: 13th Symposium of the European Association for Research in Transportation'
+  venue: tum
+  period: June 10-12, 2025
+  start_date: 2025-06-10
+  end_date: 2025-06-12
+  is_finished: true
+  abstracts_available: true
+  chairs:
+  - person: klaus_bogenberger
+    order: 1
+  legacy_id: 14
+- id: heart_2026_heart_2026_14th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2026
+  name: 'hEART 2026: 14th Symposium of the European Association for Research in Transportation'
+  venue: universit_gustave_eiffel
+  url: https://heart2026.fr
+  period: September 29 - October 1, 2026
+  start_date: 2026-09-29
+  end_date: 2026-10-01
+  is_finished: false
+  abstracts_available: false
+  chairs:
+  - person: ludovic_leclercq
+    order: 1
+  - person: latifa_oukhellou
+    order: 2
+  - person: mahdi_zargayouna
+    order: 3
+  legacy_id: 15
+- id: heart_2027_heart_2027_15th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2027
+  name: 'hEART 2027: 15th Symposium of the European Association for Research in Transportation'
+  venue: jagiellonian_university
+  is_finished: false
+  abstracts_available: false
+  chairs:
+  - person: rafal_kucharski
+    order: 1
+  legacy_id: 16
+- id: heart_2028_heart_2028_16th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2028
+  name: 'hEART 2028: 16th Symposium of the European Association for Research in Transportation'
+  venue: jrc
+  is_finished: false
+  abstracts_available: false
+  chairs:
+  - person: biagio_ciuffo
+    order: 1
+  comments: hEART 2028 is organised jointly by the European Commission Joint Research Centre & University
+    of Napoli Federico II. It will take place in Maratea (PZ), Italy.
+  legacy_id: 17
+- id: heart_2029_heart_2029_17th_symposium_of_the_european_association_for_research_in_transportation
+  year: 2029
+  name: 'hEART 2029: 17th Symposium of the European Association for Research in Transportation'
+  venue: tu_delft
+  is_finished: false
+  abstracts_available: false
+  chairs:
+  - person: shadi_sharif_azadeh
+    order: 1
+  - person: bilge_atasoy
+    order: 2
+  legacy_id: 18

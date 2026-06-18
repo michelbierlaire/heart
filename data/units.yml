@@ -1,0 +1,243 @@
+- id: tud_friedrich_list_faculty_of_transport_and_traffic_sciences
+  name: '"Friedrich List" Faculty of Transport and Traffic Sciences'
+  url: https://tu-dresden.de/bu/verkehr
+  institution: tud
+  legacy_id: DRESTRAN
+- id: upc_center_for_innovation_in_transportation
+  name: Center for Innovation in Transportation
+  url: http://www.cenit.es/cat/inici_cat.htm
+  institution: upc
+  legacy_id: UPCTRANSP
+- id: newcastle_university_centre_for_behaviour_and_evolution
+  name: Centre for Behaviour and Evolution
+  url: https://www.ncl.ac.uk/cbe/
+  institution: newcastle_university
+  legacy_id: NEWCIVIL
+- id: kul_centre_for_industrial_management_traffic_and_infrastructure
+  name: Centre for Industrial Management, Traffic and Infrastructure
+  url: http://www.mech.kuleuven.be/en/cib/
+  institution: kul
+  legacy_id: KULINDUMANAG
+- id: imperial_college_london_centre_for_transport_engineering_and_modelling
+  name: Centre for Transport Engineering and Modelling
+  url: https://www.imperial.ac.uk/transport-engineering/
+  institution: imperial_college_london
+  legacy_id: ICLTRANSP
+- id: kth_centre_for_transport_studies
+  name: Centre for Transport Studies
+  url: http://www.kth.se/abe/centra/cts?l=en_UK
+  institution: kth
+  legacy_id: KTHTRANSP
+- id: ucl_centre_for_transport_studies
+  name: Centre for Transport Studies
+  url: http://www.cege.ucl.ac.uk/cts
+  institution: ucl
+  legacy_id: UCLTRANSP
+- id: li_u_kts
+  name: Communications and Transport Systems
+  acronym: KTS
+  url: https://liu.se/en/organisation/liu/itn/kts
+  institution: li_u
+  legacy_id: LINKTRANSP
+- id: upc_department_of_civil_and_environmental_engineering
+  name: Department of Civil and Environmental Engineering
+  url: https://deca.upc.edu/en?set_language=en
+  institution: upc
+  legacy_id: UPCCIVIL
+- id: aalto_university_department_of_department_of_built_environment
+  name: Department of Department of Built Environment
+  url: https://www.aalto.fi/en/department-of-built-environment
+  institution: aalto_university
+  legacy_id: AALTOCE
+- id: erasmus_university_rotterdam_department_of_econometrics
+  name: Department of Econometrics
+  url: https://www.eur.nl/en/ese/department-econometrics
+  institution: erasmus_university_rotterdam
+  legacy_id: ERASECON
+- id: ku_department_of_economics
+  name: Department of Economics
+  url: http://www.economics.ku.dk/
+  institution: ku
+  legacy_id: KUECONOMICS
+- id: tu_delft_department_of_engineering_systems_and_services
+  name: Department of Engineering Systems and Services
+  url: https://www.tudelft.nl/en/tpm/about-the-faculty/departments/engineering-systems-and-services/
+  institution: tu_delft
+  legacy_id: DELFTUENGSYSTEMS
+- id: tu_delft_department_of_maritime_and_transport_technology
+  name: Department of Maritime and Transport Technology
+  url: https://www.tudelft.nl/en/me/about/departments/maritime-and-transport-technology
+  institution: tu_delft
+  legacy_id: DELFTUMARITIME
+- id: tum_department_of_mobility_systems_engineering
+  name: Department of Mobility Systems Engineering
+  url: https://www.mos.ed.tum.de/en/mos/home/
+  institution: tum
+  legacy_id: UNIMUNTRAF
+- id: tu_delft_department_of_transport_and_planning
+  name: Department of Transport and Planning
+  url: http://citg.tudelft.nl/en/about-faculty/departments/transport-and-planning/
+  institution: tu_delft
+  legacy_id: DELFTUTRANSP
+- id: sapienza_universit_di_roma_dicea
+  name: Dipartimento di Ingegneria Civile, Edile e Ambientale
+  acronym: DICEA
+  url: http://www.dicea.uniroma1.it
+  institution: sapienza_universit_di_roma
+  legacy_id: ROMAINGCIV
+- id: university_of_naples_federico_ii_dipartimento_di_ingegneria_dei_trasporti
+  name: Dipartimento di Ingegneria dei Trasporti
+  url: http://unina.academia.edu/Departments/DIPARTIMENTO_DI_INGEGNERIA_DEI_TRASPORTI
+  institution: university_of_naples_federico_ii
+  legacy_id: UNNATRANSP
+- id: ntua_dpt_of_transportation_planning_and_engineering
+  name: Dpt of Transportation Planning and Engineering,
+  url: http://www.civil.ntua.gr/departments/transport
+  institution: ntua
+  legacy_id: NTUATRANSP
+- id: israel_institute_of_technology_dpt_of_transportation_and_geo_information_engineering
+  name: Dpt of Transportation and Geo-Information Engineering
+  url: http://www.technion.ac.il/technion/civil/dev-transport.html
+  institution: israel_institute_of_technology
+  legacy_id: TECHTRANSP
+- id: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  name: Dpt of Urban Planning and Transportation
+  url: https://www.tue.nl/en/research/research-groups/design-and-decision-support-systems/urban-planning-and-transportation
+  institution: eindhoven_university_of_technology
+  legacy_id: EINDUNIURB
+- id: technical_university_of_crete_dynamic_systems_simulation_laboratory
+  name: Dynamic Systems & Simulation Laboratory
+  url: http://www.dssl.tuc.gr/
+  institution: technical_university_of_crete
+  legacy_id: UNICRETDYNSYS
+- id: nyu_ad_engineering_division
+  name: Engineering Division
+  url: https://nyuad.nyu.edu/en/academics/divisions/engineering.html
+  institution: nyu_ad
+  legacy_id: NYUADENG
+- id: jagiellonian_university_faculty_of_mathematics_and_computer_science
+  name: Faculty of Mathematics and Computer Science
+  url: https://en.uj.edu.pl/research/research-highlights/mcs
+  institution: jagiellonian_university
+  legacy_id: KRAKMATH
+- id: ub_faculty_of_transport_and_traffic_engineering
+  name: Faculty of Transport and Traffic Engineering
+  url: http://www.sf.bg.ac.rs/index.php/en
+  institution: ub
+  legacy_id: BELGTRANSP
+- id: bme_faculty_of_transportation_engineering_and_vehicle_engineering
+  name: Faculty of Transportation Engineering and Vehicle Engineering
+  url: http://kozlekedes.bme.hu/en
+  institution: bme
+  legacy_id: HUBMETRANSP
+- id: technische_universit_t_berlin_institut_for_land_and_sea_transport_systems
+  name: Institut for Land and Sea Transport Systems
+  institution: technische_universit_t_berlin
+  legacy_id: UNIBERTRANSP
+- id: ethz_institute_for_transport_planning_and_systems
+  name: Institute for Transport Planning and Systems
+  url: http://www.ivt.ethz.ch/
+  institution: ethz
+  legacy_id: ETHZTRANSP
+- id: karlsruhe_institute_of_technology_institute_for_transport_studies
+  name: Institute for Transport Studies
+  url: http://www.ifv.kit.edu/english/index.php
+  institution: karlsruhe_institute_of_technology
+  legacy_id: KAINTRANSP
+- id: its_leeds_institute_for_transport_studies
+  name: Institute for Transport Studies
+  url: http://www.its.leeds.ac.uk/
+  institution: its_leeds
+  legacy_id: UNILETRANSP
+- id: dlr_institute_of_transport_research
+  name: Institute of Transport Research
+  url: http://www.dlr.de/vf/en/
+  institution: dlr
+  legacy_id: DLRTRANSP
+- id: jrc_jrc
+  name: Joint Research Centre
+  acronym: JRC
+  url: https://joint-research-centre.ec.europa.eu/index_en
+  institution: jrc
+  legacy_id: EURJRC
+- id: universit_gustave_eiffel_grettia
+  name: Laboratoire Génie des Réseaux des Transport Terrestres et Informatique Avancée
+  acronym: GRETTIA
+  url: https://grettia.univ-gustave-eiffel.fr/accueil
+  institution: universit_gustave_eiffel
+  legacy_id: GRETTIA
+- id: entpe_laboratoire_d_ing_nierie_circulation_transports
+  name: Laboratoire d'Ingénierie Circulation Transports
+  url: https://licit.univ-gustave-eiffel.fr
+  institution: entpe
+  legacy_id: ENTPETRANSP
+- id: universit_gustave_eiffel_licit
+  name: Laboratoire d'Ingénierie Circulation Transports
+  acronym: LICIT
+  url: https://licit.univ-gustave-eiffel.fr
+  institution: universit_gustave_eiffel
+  legacy_id: LICIT
+- id: universit_de_lyon_laboratoire_d_economie_des_transports
+  name: Laboratoire d’Economie des Transports
+  url: http://www.let.fr/
+  institution: universit_de_lyon
+  legacy_id: UNILYTRANSP
+- id: gu_seg
+  name: Social and Economic Geography
+  acronym: SEG
+  url: https://geoweb.ugent.be/research/social-and-economic-geography
+  institution: gu
+  legacy_id: GHENTGEO
+- id: university_of_coimbra_spatial_planning_and_transportation_engineering_unit
+  name: Spatial Planning and Transportation Engineering Unit
+  url: http://www.uc.pt/fctuc/dec
+  institution: university_of_coimbra
+  legacy_id: UNICOTRANSP
+- id: ucl_bartlett
+  name: The Bartlett Faculty of the Built Environment
+  acronym: Bartlett
+  url: https://www.ucl.ac.uk/bartlett/
+  institution: ucl
+  legacy_id: UCLBARLETT
+- id: rcn_toi
+  name: The Institute of Transport Economics
+  acronym: TOI
+  url: https://www.toi.no/english
+  institution: rcn
+  legacy_id: TOI
+- id: aut_tel
+  name: Transport Engineering Laboratory
+  acronym: TEL
+  url: http://tel.web.auth.gr/index.php?lang=en
+  institution: aut
+  legacy_id: AUTTEL
+- id: university_of_luxembourg_mobilab
+  name: Transport Research Group
+  acronym: MobiLab
+  url: https://mobilab.lu/
+  institution: university_of_luxembourg
+  legacy_id: LUXMOBILAB
+- id: dtu_transport_science_department_of_technology_management_and_economics
+  name: Transport Science, Department of Technology, Management and Economics
+  url: https://www.man.dtu.dk/english/about-us/department-organisation/divisions/transportation-science
+  institution: dtu
+  legacy_id: DTUTRANSP
+- id: epfl_transportation_center
+  name: Transportation Center
+  url: http://transport.epfl.ch/
+  institution: epfl
+  legacy_id: EPFLTRANSP
+- id: university_of_southampton_trg
+  name: Transportation Research Group
+  acronym: TRG
+  url: http://www.southampton.ac.uk/trg
+  institution: university_of_southampton
+  legacy_id: TRGSOUTHAMPTON
+- id: vti_r_ntraffic_analysis_and_logistics
+  name: \r\nTraffic analysis and logistics
+  institution: vti
+  legacy_id: VTITRAFFIC
+- id: vti_r_ntransport_economics
+  name: \r\nTransport economics
+  institution: vti
+  legacy_id: VTIECO

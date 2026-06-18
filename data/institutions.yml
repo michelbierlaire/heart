@@ -1,0 +1,276 @@
+- id: aalto_university
+  name: Aalto University
+  url: http://www.aalto.fi/en/
+  country: fi
+  is_heart_member: true
+  legacy_id: FINAALTO
+- id: aut
+  name: Aristotle University of Thessaloniki
+  acronym: AUT
+  url: http://www.auth.gr/en
+  country: gr
+  is_heart_member: true
+  legacy_id: GREECEARIST
+- id: bme
+  name: Budapest University of Technology and Economics
+  acronym: BME
+  url: http://www.bme.hu/?language=en
+  country: hu
+  is_heart_member: true
+  legacy_id: HUBME
+- id: dtu
+  name: Danish Technical University
+  acronym: DTU
+  url: http://www.dtu.dk/english.aspx
+  country: dk
+  is_heart_member: true
+  legacy_id: DANEDTU
+- id: tu_delft
+  name: Delft University of Technology
+  acronym: TU Delft
+  url: http://home.tudelft.nl/
+  country: nl
+  is_heart_member: true
+  legacy_id: PAYBADELFTU
+- id: entpe
+  name: Ecole Nationale des Travaux Publics de l’Etat
+  acronym: ENTPE
+  url: http://www.entpe.fr/
+  country: fr
+  is_heart_member: true
+  legacy_id: FRANENTPE
+- id: epfl
+  name: Ecole Polytechnique Fédérale de Lausanne
+  acronym: EPFL
+  url: http://www.epfl.ch/
+  country: ch
+  is_heart_member: true
+  legacy_id: SUISEPFL
+- id: ethz
+  name: Eidgenössische Technische Hochschule Zürich
+  acronym: ETHZ
+  url: http://www.ethz.ch/index_EN
+  country: ch
+  is_heart_member: true
+  legacy_id: SUISETHZ
+- id: eindhoven_university_of_technology
+  name: Eindhoven University of Technology
+  url: http://www.tue.nl/
+  country: nl
+  is_heart_member: true
+  legacy_id: PABAEINDUNI
+- id: erasmus_university_rotterdam
+  name: Erasmus University Rotterdam
+  url: https://www.eur.nl/en
+  country: nl
+  is_heart_member: true
+  legacy_id: PAYBAROTT
+- id: jrc
+  name: European Commission
+  acronym: JRC
+  url: https://commission.europa.eu/index_en
+  country: eu
+  is_heart_member: true
+  legacy_id: EURRESEARCH
+- id: dlr
+  name: German Aerospace Center
+  acronym: DLR
+  url: http://www.dlr.de/
+  country: de
+  is_heart_member: false
+  legacy_id: GERMANAERO
+- id: gu
+  name: Ghent University
+  acronym: GU
+  url: http://www.ugent.be/en
+  country: be
+  is_heart_member: true
+  legacy_id: BELGGHENT
+- id: imperial_college_london
+  name: Imperial College London
+  url: http://www3.imperial.ac.uk/
+  country: gb
+  is_heart_member: true
+  legacy_id: UNKIICL
+- id: israel_institute_of_technology
+  name: Israel Institute of Technology
+  url: http://www1.technion.ac.il/en
+  country: il
+  is_heart_member: true
+  legacy_id: ISRATECH
+- id: jagiellonian_university
+  name: Jagiellonian University
+  url: https://en.uj.edu.pl/en_GB/start
+  country: pl
+  is_heart_member: true
+  legacy_id: POLAJAGI
+- id: kth
+  name: KTH Royal Institute of Technology
+  acronym: KTH
+  url: http://www.kth.se/
+  country: se
+  is_heart_member: true
+  legacy_id: SUEDKTH
+- id: kul
+  name: KU Leuven
+  acronym: KUL
+  url: http://www.kuleuven.be/english
+  country: be
+  is_heart_member: true
+  legacy_id: BELGKUL
+- id: karlsruhe_institute_of_technology
+  name: Karlsruhe Institute of Technology
+  url: http://www.kit.edu/english/index.php
+  country: de
+  is_heart_member: true
+  legacy_id: ALLEKAIN
+- id: li_u
+  name: Linköping University
+  acronym: li.u
+  url: https://liu.se/en
+  country: se
+  is_heart_member: true
+  legacy_id: SUELINK
+- id: ntua
+  name: National Technical University of Athens
+  acronym: NTUA
+  url: http://www.ntua.gr/
+  country: gr
+  is_heart_member: true
+  legacy_id: GRECNTUA
+- id: nyu_ad
+  name: New-York University Abu Dhabi
+  acronym: NYU-AD
+  url: https://nyuad.nyu.edu/en/
+  country: intl
+  is_heart_member: true
+  legacy_id: UAENYU
+- id: newcastle_university
+  name: Newcastle University
+  url: http://www.ncl.ac.uk/
+  country: gb
+  is_heart_member: true
+  legacy_id: UNKNEW
+- id: rcn
+  name: Research Council of Norway
+  acronym: RCN
+  url: http://www.forskningsradet.no/en/
+  country: 'no'
+  is_heart_member: true
+  legacy_id: RESEARCHCOUNCILNO
+- id: sapienza_universit_di_roma
+  name: Sapienza Università di Roma
+  url: http://www.uniroma1.it
+  country: it
+  is_heart_member: true
+  legacy_id: ITALUROMA
+- id: vti
+  name: Swedish National Road and Transport Research Institute
+  acronym: VTI
+  url: https://www.vti.se/en/
+  country: se
+  is_heart_member: true
+  legacy_id: SUEDVTI
+- id: technical_university_of_crete
+  name: Technical University of Crete
+  url: http://en.tuc.gr/
+  country: gr
+  is_heart_member: true
+  legacy_id: GRECUNICRET
+- id: technische_universit_t_berlin
+  name: Technische Universität Berlin
+  url: http://www.tu-berlin.de/
+  country: de
+  is_heart_member: true
+  legacy_id: ALLEUNIBER
+- id: tud
+  name: Technische Universität Dresden
+  acronym: TUD
+  url: https://tu-dresden.de
+  country: de
+  is_heart_member: true
+  legacy_id: ALLEDRES
+- id: tum
+  name: Technische Universität München
+  acronym: TUM
+  url: http://www.tum.de/
+  country: de
+  is_heart_member: true
+  legacy_id: ALLETUM
+- id: upc
+  name: Universitat Politècnica de Catalunya
+  acronym: UPC
+  url: http://www.upc.edu/
+  country: es
+  is_heart_member: true
+  legacy_id: ESPAUPC
+- id: ucl
+  name: University College London
+  acronym: UCL
+  url: http://www.ucl.ac.uk/
+  country: gb
+  is_heart_member: true
+  legacy_id: UNKIUCL
+- id: ub
+  name: University of Belgrade
+  acronym: UB
+  url: http://www.bg.ac.rs/en/
+  country: rs
+  is_heart_member: true
+  legacy_id: UNIBELGRADE
+- id: university_of_coimbra
+  name: University of Coimbra
+  url: http://www.uc.pt/
+  country: pt
+  is_heart_member: true
+  legacy_id: PORTUNICO
+- id: ku
+  name: University of Copenhagen
+  acronym: KU
+  url: http://www.ku.dk/english/
+  country: dk
+  is_heart_member: false
+  legacy_id: DANEUCOP
+- id: its_leeds
+  name: University of Leeds
+  acronym: ITS Leeds
+  url: http://www.leeds.ac.uk/
+  country: gb
+  is_heart_member: true
+  legacy_id: UNKIUNILE
+- id: university_of_luxembourg
+  name: University of Luxembourg
+  url: https://wwwen.uni.lu/
+  country: lu
+  is_heart_member: true
+  legacy_id: LUXUNI
+- id: university_of_naples_federico_ii
+  name: University of Naples "Federico II"
+  url: http://unina.academia.edu/
+  country: it
+  is_heart_member: true
+  legacy_id: ITALUNNA
+- id: university_of_southampton
+  name: University of Southampton
+  url: http://www.southampton.ac.uk
+  country: gb
+  is_heart_member: true
+  legacy_id: UKSOUTH
+- id: universit_t_der_bundeswehr_m_nchen
+  name: Universität der Bundeswehr München
+  url: http://www.unibw.de/startseite/index_en.html
+  country: de
+  is_heart_member: true
+  legacy_id: ALLEUNIMUN
+- id: universit_gustave_eiffel
+  name: Université Gustave Eiffel
+  url: https://www.univ-gustave-eiffel.fr
+  country: fr
+  is_heart_member: true
+  legacy_id: FRANEIFFEL
+- id: universit_de_lyon
+  name: Université de Lyon
+  url: http://www.universite-lyon.fr/
+  country: fr
+  is_heart_member: true
+  legacy_id: FRANUNILY

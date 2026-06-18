@@ -1,0 +1,1344 @@
+- id: constantinos_antoniou
+  title: Prof.
+  first_name: Constantinos
+  last_name: Antoniou
+  email: c.antoniou@tum.de
+  url: http://www.tse.bgu.tum.de/en/staff/cantoniou/
+  unit: tum_department_of_mobility_systems_engineering
+  active: true
+  roles:
+  - role: committee_member
+  - role: conference_chair
+    conference: heart_2018_heart_2018_7th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: tum
+    legacy_id: '44'
+  legacy_id: CostAnto
+- id: theo_arentze
+  title: Dr.
+  first_name: Theo
+  last_name: Arentze
+  email: arentze@tue.nl
+  unit: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  active: true
+  keywords:
+  - activity-based modeling
+  - travel behavior analysis
+  legacy_id: TheoAren
+- id: bilge_atasoy
+  title: Prof.
+  first_name: Bilge
+  last_name: Atasoy
+  email: B.Atasoy@tudelft.nl
+  url: https://www.tudelft.nl/en/staff/b.atasoy/
+  unit: tu_delft_department_of_maritime_and_transport_technology
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2029_heart_2029_17th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  legacy_id: BilgAtas
+- id: kay_axhausen
+  title: Prof.
+  first_name: Kay
+  last_name: Axhausen
+  email: axhausen@ivt.baug.ethz.ch
+  url: https://www.ivt.ethz.ch/personen/profil.kay-axhausen.html
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2023_heart_2023_11th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  legacy_id: KayAxha
+- id: jaume_barcelo
+  title: Prof.
+  first_name: Jaume
+  last_name: Barcelo
+  email: jaume.barcelo@upc.edu
+  url: http://www.cenit.es/eng/cv_jbb_eng.htm
+  unit: upc_center_for_innovation_in_transportation
+  active: true
+  legacy_id: JaumBarc
+- id: shlomo_bekhor
+  title: Prof.
+  first_name: Shlomo
+  last_name: Bekhor
+  email: sbekhor@technion.ac.il
+  unit: israel_institute_of_technology_dpt_of_transportation_and_geo_information_engineering
+  active: true
+  keywords:
+  - demand modeling
+  - intelligent transport systems
+  - network analysis
+  legacy_id: ShloBekh
+- id: michel_bierlaire
+  title: Prof.
+  first_name: Michel
+  last_name: Bierlaire
+  email: michel.bierlaire@epfl.ch
+  url: http://people.epfl.ch/michel.bierlaire
+  unit: epfl_transportation_center
+  active: true
+  roles:
+  - role: committee_member
+  - role: conference_chair
+    conference: heart_2012_latsis_symposium_2012_1st_european_symposium_on_quantitative_methods_in_transportation_systems
+    order: 2
+  - role: institution_representative
+    institution: epfl
+    legacy_id: '1'
+  legacy_id: MichBier
+- id: klaus_bogenberger
+  title: Prof.
+  first_name: Klaus
+  last_name: Bogenberger
+  email: Klaus.Bogenberger@unibw.de
+  url: https://www.unibw.de/ivr/strassenverkehrstechnik/klausbogenberger
+  unit: tum_department_of_mobility_systems_engineering
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2025_heart_2025_13th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  legacy_id: KlauBoge
+- id: nebojsa_bojovic
+  title: Prof.
+  first_name: Nebojsa
+  last_name: Bojovic
+  email: nb.bojovic@sf.bg.ac.rs
+  url: http://old.sf.bg.ac.rs/index.php/en-GB/departments/railway-transport-and-traffic/joint-department-in-railway-management/948-nebojsa-bojovic-redovni-prof
+  unit: ub_faculty_of_transport_and_traffic_engineering
+  active: true
+  roles:
+  - role: institution_representative
+    institution: ub
+    legacy_id: '28'
+  legacy_id: NeboBojo
+- id: patrick_bonnel
+  title: Prof.
+  first_name: Patrick
+  last_name: Bonnel
+  email: Patrick.Bonnel@entpe.fr
+  unit: universit_de_lyon_laboratoire_d_economie_des_transports
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2020_heart_2020_9th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  keywords:
+  - LUTI modelling
+  - network codification
+  - travel survey method
+  legacy_id: PatrBonn
+- id: aloys_borgers
+  title: Dr.
+  first_name: Aloys
+  last_name: Borgers
+  email: a.w.j.borgers@tue.nl
+  unit: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  active: true
+  keywords:
+  - pedestrian movement
+  legacy_id: AloyBorg
+- id: maria_borjesson
+  title: Prof.
+  first_name: Maria
+  last_name: Borjesson
+  email: maria.borjesson@vti.se
+  unit: vti_r_ntransport_economics
+  active: true
+  roles:
+  - role: committee_member
+  keywords:
+  - discrete choice
+  - transport policy
+  - valuation of time and reliability
+  legacy_id: MariBorj
+- id: paul_bouman
+  title: Prof.
+  first_name: Paul
+  last_name: Bouman
+  email: bouman@ese.eur.nl
+  url: https://www.erim.eur.nl/people/paul-bouman/
+  unit: erasmus_university_rotterdam_department_of_econometrics
+  active: true
+  roles:
+  - role: institution_representative
+    institution: erasmus_university_rotterdam
+    legacy_id: '42'
+  legacy_id: PaulBoum
+- id: fritz_busch
+  title: Prof.
+  first_name: Fritz
+  last_name: Busch
+  email: Fritz.Busch@vt.bv.tum.de
+  url: http://www.vt.bv.tum.de/index.php?option=com_content&task=view&id=27&Itemid=84
+  unit: tum_department_of_mobility_systems_engineering
+  active: true
+  legacy_id: FritBusc
+- id: armando_carteni
+  title: Prof.
+  first_name: Armando
+  last_name: Carteni
+  email: armando.carteni@unina.it
+  unit: university_of_naples_federico_ii_dipartimento_di_ingegneria_dei_trasporti
+  active: true
+  legacy_id: ArmaCart
+- id: ennio_cascetta
+  title: Prof.
+  first_name: Ennio
+  last_name: Cascetta
+  email: cascetta@unina.it
+  url: http://unina.academia.edu/EnnioCascetta
+  unit: university_of_naples_federico_ii_dipartimento_di_ingegneria_dei_trasporti
+  active: true
+  legacy_id: EnniCasc
+- id: oded_cats
+  title: Prof.
+  first_name: Oded
+  last_name: Cats
+  email: O.Cats@tudelft.nl
+  url: http://www.citg.tudelft.nl/en/about-faculty/departments/transport-and-planning/staff-information/dr-oded-cats/
+  unit: tu_delft_department_of_transport_and_planning
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2016_heart_2016_5th_symposium_of_the_european_association_for_research_in_transportation
+    order: 3
+  keywords:
+  - Public transportation
+  legacy_id: OdedCats
+- id: manos_chaniotakis
+  title: Dr
+  first_name: Manos
+  last_name: Chaniotakis
+  email: m.chaniotakis@ucl.ac.uk
+  unit: ucl_bartlett
+  active: true
+  roles:
+  - role: institution_representative
+    institution: ucl
+    legacy_id: '41'
+  legacy_id: ManoChan
+- id: elisabetta_cherchi
+  title: Prof.
+  first_name: Elisabetta
+  last_name: Cherchi
+  email: ec5338@nyu.edu
+  url: https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/elisabetta-cherchi.html
+  unit: nyu_ad_engineering_division
+  active: true
+  roles:
+  - role: committee_chair
+  - role: committee_member
+  - role: institution_representative
+    institution: nyu_ad
+    legacy_id: '33'
+  legacy_id: ElisCher
+- id: bastian_chlond
+  title: Dr.
+  first_name: Bastian
+  last_name: Chlond
+  email: bastian.chlond@kit.edu
+  unit: karlsruhe_institute_of_technology_institute_for_transport_studies
+  active: true
+  keywords:
+  - transport policy
+  - travel behaviour
+  - travel survey
+  legacy_id: BastChlo
+- id: caspar_chorus
+  title: Prof.
+  first_name: Caspar
+  last_name: Chorus
+  email: C.G.Chorus@tudelft.nl
+  unit: tu_delft_department_of_engineering_systems_and_services
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2016_heart_2016_5th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  - role: past_committee_member
+  legacy_id: CaspChor
+- id: andy_chow
+  title: Dr.
+  first_name: Andy
+  last_name: Chow
+  email: andy.chow@ucl.ac.uk
+  unit: ucl_centre_for_transport_studies
+  active: true
+  legacy_id: AndyChow
+- id: francesco_ciari
+  title: Dr.
+  first_name: Francesco
+  last_name: Ciari
+  email: ciari@ivt.baug.ethz.ch
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  legacy_id: FranCiar
+- id: biagio_ciuffo
+  title: Dr.
+  first_name: Biagio
+  last_name: Ciuffo
+  email: Biagio.CIUFFO@ec.europa.eu
+  unit: jrc_jrc
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2028_heart_2028_16th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: jrc
+    legacy_id: '50'
+  legacy_id: BiagCiuf
+- id: francesco_corman
+  title: Prof.
+  first_name: Francesco
+  last_name: Corman
+  email: francesco.corman@ivt.baug.ethz.ch
+  url: https://www.ivt.ethz.ch/en/people/profile.francesco-corman.html
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  roles:
+  - role: institution_representative
+    institution: ethz
+    legacy_id: '13'
+  legacy_id: FranCorm
+- id: jonas_de_vos
+  title: Dr.
+  first_name: Jonas
+  last_name: De Vos
+  email: Jonas.DeVos@UGent.be
+  url: http://geoweb.ugent.be/staff/802001057538
+  unit: gu_seg
+  active: true
+  keywords:
+  - Travel behavior
+  legacy_id: JonaDevo
+- id: argyris_delis
+  title: Prof.
+  first_name: Argyris
+  last_name: Delis
+  email: adelis@science.tuc.gr
+  unit: technical_university_of_crete_dynamic_systems_simulation_laboratory
+  active: true
+  keywords:
+  - numerical methods
+  - simulation
+  - traffic flow modelling
+  legacy_id: ArgyDeli
+- id: ben_derudder
+  title: Prof.
+  first_name: Ben
+  last_name: Derudder
+  email: Ben.derudder@ugent.be
+  url: http://geoweb.ugent.be/staff/801001462333
+  unit: gu_seg
+  active: true
+  roles:
+  - role: second_institution_representative
+    institution: gu
+    legacy_id: '29'
+  keywords:
+  - Geography
+  - Urban networks
+  legacy_id: BenDeru
+- id: twan_dollevoet
+  title: Dr.
+  first_name: Twan
+  last_name: Dollevoet
+  email: dollevoet@ese.eur.nl
+  unit: erasmus_university_rotterdam_department_of_econometrics
+  active: true
+  keywords:
+  - Public transportation
+  - Railways
+  legacy_id: TwanDoll
+- id: thibaut_dubernet
+  title: M.
+  first_name: Thibaut
+  last_name: Dubernet
+  email: thibaut.dubernet@ivt.baug.ethz.ch
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  legacy_id: ThiDub
+- id: szabolcs_duleba
+  title: Dr.
+  first_name: Szabolcs
+  last_name: Duleba
+  email: duleba.szabolcs@mail.bme.hu
+  unit: bme_faculty_of_transportation_engineering_and_vehicle_engineering
+  active: true
+  keywords:
+  - MCDM modeling
+  - passenger preference surveys
+  - public transport development policy
+  legacy_id: SzabDule
+- id: dimitrios_efthymiou
+  title: Dr.
+  first_name: Dimitrios
+  last_name: Efthymiou
+  email: defthym@mail.ntua.gr
+  unit: ntua_dpt_of_transportation_planning_and_engineering
+  active: true
+  keywords:
+  - electric vehicles
+  - facility locatio
+  - spatial econometrics
+  legacy_id: DimiEfth
+- id: nour_eddin_el_faouzi
+  title: Prof.
+  first_name: Nour-Eddin
+  last_name: El Faouzi
+  email: nour-eddin.elfaouzi@ifsttar.fr
+  url: http://www.entpe.fr/internet/contenu/departements/transports/laboratoire_licit/equipe/el_faouzi_nour_eddin
+  unit: entpe_laboratoire_d_ing_nierie_circulation_transports
+  active: true
+  legacy_id: NourElFa
+- id: jonas_eliasson
+  title: Prof.
+  first_name: Jonas
+  last_name: Eliasson
+  email: jonas.eliasson@abe.kth.se
+  url: http://www.kth.se/abe/centra/cts/staff/Member.php?PersonKey=JEliasson&ViewAllPublications=True&l=en_UK
+  unit: kth_centre_for_transport_studies
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2013_heart_2013_2nd_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: past_committee_member
+  legacy_id: JonaElia
+- id: alexander_erath
+  title: Dr.
+  first_name: Alexander
+  last_name: Erath
+  email: alexander.erath@ivt.baug.ethz.ch
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  legacy_id: AlexErat
+- id: domokos_esztergar_kiss
+  title: Dr.
+  first_name: Domokos
+  last_name: Esztergar-Kiss
+  email: esztergar-kiss.domokos@kjk.bme.hu
+  unit: bme_faculty_of_transportation_engineering_and_vehicle_engineering
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2019_heart_2019_8th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: bme
+    legacy_id: '24'
+  keywords:
+  - Activity based modeling
+  - SUMP, mobility as a service
+  - Smart City applications
+  legacy_id: DomoEstz
+- id: tao_feng
+  title: Dr.
+  first_name: Tao
+  last_name: Feng
+  email: t.feng@tue.nl
+  unit: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  active: true
+  keywords:
+  - GPS
+  - dynamic models
+  - environmental issues
+  legacy_id: TaoFeng
+- id: gunnar_floetteroed
+  title: Dr.
+  first_name: Gunnar
+  last_name: Floetteroed
+  email: gunnar.flotterod@liu.se
+  unit: li_u_kts
+  active: true
+  roles:
+  - role: institution_representative
+    institution: li_u
+    legacy_id: '32'
+  keywords:
+  - dynamic traffic assignment
+  - network modeling
+  - traffic flow theory
+  legacy_id: GunnFloe
+- id: mogens_fosgerau
+  title: Prof.
+  first_name: Mogens
+  last_name: Fosgerau
+  email: Mogens.Fosgerau@econ.ku.dk
+  url: http://www.economics.ku.dk/staff/vip/?pure=en/persons/85024
+  unit: ku_department_of_economics
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2015_heart_2015_4th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: ku
+    legacy_id: '4'
+  - role: past_committee_member
+  legacy_id: MogeFosg
+- id: gaetano_fusco
+  title: Dr.
+  first_name: Gaetano
+  last_name: Fusco
+  email: gaetano.fusco@uniroma1.it
+  unit: sapienza_universit_di_roma_dicea
+  active: true
+  legacy_id: GaetFusc
+- id: guido_gentile
+  title: Prof.
+  first_name: Guido
+  last_name: Gentile
+  email: guido.gentile@sistemaits.com
+  url: http://guidogentile.sistemaits.com
+  unit: sapienza_universit_di_roma_dicea
+  active: true
+  roles:
+  - role: institution_representative
+    institution: sapienza_universit_di_roma
+    legacy_id: '23'
+  legacy_id: GuidGent
+- id: regine_gerike
+  title: Prof.
+  first_name: Regine
+  last_name: Gerike
+  email: regine.gerike@tu-dresden.de
+  url: https://tu-dresden.de/bu/verkehr/ivs/msp
+  unit: tud_friedrich_list_faculty_of_transport_and_traffic_sciences
+  active: true
+  roles:
+  - role: institution_representative
+    institution: tud
+    legacy_id: '53'
+  legacy_id: RegiGeri
+- id: nikolas_geroliminis
+  title: Prof.
+  first_name: Nikolas
+  last_name: Geroliminis
+  email: nikolas.geroliminis@epfl.ch
+  url: http://people.epfl.ch/nikolas.geroliminis
+  unit: epfl_transportation_center
+  active: true
+  roles:
+  - role: committee_member
+  - role: conference_chair
+    conference: heart_2012_latsis_symposium_2012_1st_european_symposium_on_quantitative_methods_in_transportation_systems
+    order: 1
+  legacy_id: NikoGero
+- id: dan_graham
+  title: Prof.
+  first_name: Dan
+  last_name: Graham
+  email: d.j.graham@imperial.ac.uk
+  url: https://www.imperial.ac.uk/people/d.j.graham
+  unit: imperial_college_london_centre_for_transport_engineering_and_modelling
+  active: true
+  roles:
+  - role: institution_representative
+    institution: imperial_college_london
+    legacy_id: '36'
+  legacy_id: DanGrah
+- id: bjorne_grimsrud
+  title: Dr.
+  first_name: Bjorne
+  last_name: Grimsrud
+  email: Bjorne.Grimsrud@toi.no
+  unit: rcn_toi
+  active: true
+  roles:
+  - role: institution_representative
+    institution: rcn
+    legacy_id: '48'
+  legacy_id: BjorGrim
+- id: jack_haddad
+  title: Prof.
+  first_name: Jack
+  last_name: Haddad
+  email: jh@technion.ac.il
+  url: http://cee.technion.ac.il/eng/Templates/ShowPage.asp?DBID=1&TMID=139&LNGID=1&FID=166&PID=0&IID=842
+  unit: israel_institute_of_technology_dpt_of_transportation_and_geo_information_engineering
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2017_heart_2017_6th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: israel_institute_of_technology
+    legacy_id: '10'
+  keywords:
+  - Intelligent Transportation Systems
+  - Management and control of transport systems
+  - traffic flow modelling
+  legacy_id: JackHadd
+- id: st_phane_hess
+  title: Prof.
+  first_name: Stéphane
+  last_name: Hess
+  email: S.Hess@its.leeds.ac.uk
+  url: http://www.stephanehess.me.uk/
+  unit: its_leeds_institute_for_transport_studies
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2014_heart_2014_3nd_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  legacy_id: StepHess
+- id: benjamin_heydecker
+  title: Prof.
+  first_name: Benjamin
+  last_name: Heydecker
+  email: b.heydecker@ucl.ac.uk
+  url: http://www-new.cege.ucl.ac.uk/php/iris/staffprofile.php?ref=BGHEY05
+  unit: ucl_centre_for_transport_studies
+  active: true
+  keywords:
+  - Dynamic modelling
+  - Networks
+  - Optimisation
+  legacy_id: BenjHeyd
+- id: tim_hillel
+  title: Dr.
+  first_name: Tim
+  last_name: Hillel
+  email: tim.hillel@ucl.ac.uk
+  url: https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/people/dr-tim-hillel
+  unit: ucl_centre_for_transport_studies
+  active: true
+  roles:
+  - role: institution_representative
+    institution: ucl
+    legacy_id: '51'
+  legacy_id: TimHill
+- id: serge_hoogendoorn
+  title: Prof.
+  first_name: Serge
+  last_name: Hoogendoorn
+  email: S.P.Hoogendoorn@tudelft.nl
+  url: http://www.citg.tudelft.nl/en/about-faculty/departments/transport-and-planning/staff-information/leerstoel-sho-2/hoogendoorn-serge/serge-hoogendoorn/
+  unit: tu_delft_department_of_transport_and_planning
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2016_heart_2016_5th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: past_committee_member
+  legacy_id: SergHoog
+- id: erik_jenelius
+  title: Prof.
+  first_name: Erik
+  last_name: Jenelius
+  email: erik.jenelius@abe.kth.se
+  url: https://people.kth.se/~jenelius/
+  unit: kth_centre_for_transport_studies
+  active: true
+  roles:
+  - role: institution_representative
+    institution: kth
+    legacy_id: '2'
+  legacy_id: ErikJene
+- id: martin_kagerbauer
+  title: Dr.
+  first_name: Martin
+  last_name: Kagerbauer
+  email: martin.kagerbauer@kit.edu
+  unit: karlsruhe_institute_of_technology_institute_for_transport_studies
+  active: true
+  keywords:
+  - demand modelling
+  - transport planning
+  legacy_id: MartKage
+- id: ioannis_kaparias
+  title: Dr
+  first_name: Ioannis
+  last_name: Kaparias
+  email: I.Kaparias@southampton.ac.uk
+  url: http://www.southampton.ac.uk/engineering/about/staff/ik3e16.page
+  unit: university_of_southampton_trg
+  active: true
+  roles:
+  - role: institution_representative
+    institution: university_of_southampton
+    legacy_id: '30'
+  legacy_id: IoanKapa
+- id: benjamin_kickh_fer
+  title: Dr.
+  first_name: Benjamin
+  last_name: Kickhöfer
+  email: kickhoefer@vsp.tu-berlin.de
+  unit: dlr_institute_of_transport_research
+  active: true
+  keywords:
+  - economic evaluation based on micro-simulation
+  legacy_id: BenjKick
+- id: iisakki_kosonen
+  title: Dr.
+  first_name: Iisakki
+  last_name: Kosonen
+  email: iisakki.kosonen@aalto.fi
+  unit: aalto_university_department_of_department_of_built_environment
+  active: true
+  keywords:
+  - electric vehicles
+  - traffic control
+  - traffic simulation
+  legacy_id: IisaKoso
+- id: rafal_kucharski
+  title: Prof.
+  first_name: Rafal
+  last_name: Kucharski
+  email: rafal.kucharski@uj.edu.pl
+  url: https://rafalkucharskipk.github.io
+  unit: jagiellonian_university_faculty_of_mathematics_and_computer_science
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2027_heart_2027_15th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: jagiellonian_university
+    legacy_id: '39'
+  legacy_id: RafaKuch
+- id: ludovic_leclercq
+  title: Prof.
+  first_name: Ludovic
+  last_name: Leclercq
+  email: ludovic.leclercq@univ-eiffel.fr
+  url: https://pagespro.univ-gustave-eiffel.fr/ludovic-leclercq
+  unit: universit_gustave_eiffel_licit
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2026_heart_2026_14th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: universit_gustave_eiffel
+    legacy_id: '15'
+  legacy_id: LudoLecl
+- id: gernot_liedtke
+  title: Dr.
+  first_name: Gernot
+  last_name: Liedtke
+  email: gernot.liedtke@dlr.de
+  unit: technische_universit_t_berlin_institut_for_land_and_sea_transport_systems
+  active: true
+  keywords:
+  - behavioral freight modelling
+  legacy_id: GernLied
+- id: gunnar_lindberg
+  title: Dr.
+  first_name: Gunnar
+  last_name: Lindberg
+  email: Gunnar.Lindberg@toi.no
+  url: https://www.toi.no/staff/lindberg-gunnar-article31824-27.html
+  unit: rcn_toi
+  active: true
+  legacy_id: GunnLind
+- id: wei_liu
+  title: Dr.
+  first_name: Wei
+  last_name: Liu
+  email: w.liu@epfl.ch
+  unit: epfl_transportation_center
+  active: true
+  keywords:
+  - Optimization
+  - Pricing
+  - Traffic flow
+  legacy_id: WeiLiu
+- id: tapio_luttinen
+  title: Prof.
+  first_name: Tapio
+  last_name: Luttinen
+  email: tapio.luttinen@aalto.fi
+  unit: aalto_university_department_of_department_of_built_environment
+  active: true
+  keywords:
+  - traffic flow theory
+  - transport economics
+  - transport policy
+  legacy_id: TapiLutt
+- id: diamantis_manolis
+  title: Dr.
+  first_name: Diamantis
+  last_name: Manolis
+  email: dmanolis@dssl.tuc.gr
+  unit: technical_university_of_crete_dynamic_systems_simulation_laboratory
+  active: true
+  keywords:
+  - traffic signal control systems
+  legacy_id: DiamMano
+- id: ouassim_manout
+  title: Dr
+  first_name: Ouassim
+  last_name: Manout
+  email: ouassim.manout@entpe.fr
+  unit: universit_de_lyon_laboratoire_d_economie_des_transports
+  active: true
+  roles:
+  - role: institution_representative
+    institution: universit_de_lyon
+    legacy_id: '38'
+  legacy_id: OuasMano
+- id: margarita_martinez_diaz
+  title: Prof.
+  first_name: Margarita
+  last_name: Martinez Diaz
+  email: margarita.martinez.diaz@upc.edu
+  url: https://futur.upc.edu/MargaritaMartinezDiaz?locale=en
+  unit: upc_department_of_civil_and_environmental_engineering
+  active: true
+  roles:
+  - role: institution_representative
+    institution: upc
+    legacy_id: '54'
+  legacy_id: MargMart
+- id: vittorio_marzano
+  title: Prof.
+  first_name: Vittorio
+  last_name: Marzano
+  email: vmarzano@unina.it
+  unit: university_of_naples_federico_ii_dipartimento_di_ingegneria_dei_trasporti
+  active: true
+  legacy_id: VittMarz
+- id: sebastiaan_meijer
+  title: Dr.
+  first_name: Sebastiaan
+  last_name: Meijer
+  email: smeijer@kth.se
+  unit: kth_centre_for_transport_studies
+  active: true
+  keywords:
+  - ITS
+  - gaming simulation
+  - logistics
+  legacy_id: SebaMeij
+- id: monica_menendez
+  title: Dr.
+  first_name: Monica
+  last_name: Menendez
+  email: monica.menendez@ivt.baug.ethz.ch
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  legacy_id: MoniMene
+- id: milos_mladenovic
+  title: Prof.
+  first_name: Milos
+  last_name: Mladenovic
+  email: milos.mladenovic@aalto.fi
+  url: https://people.aalto.fi/index.html#milos_mladenovic
+  unit: aalto_university_department_of_department_of_built_environment
+  active: true
+  keywords:
+  - self-driving vehicles
+  - transport modeling
+  - transport planning
+  legacy_id: MiloMlad
+- id: guillaume_monchambert
+  title: Dr
+  first_name: Guillaume
+  last_name: Monchambert
+  email: G.Monchambert@univ-lyon2.fr
+  unit: universit_de_lyon_laboratoire_d_economie_des_transports
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2020_heart_2020_9th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  legacy_id: GuilMonc
+- id: kai_nagel
+  title: Prof.
+  first_name: Kai
+  last_name: Nagel
+  email: nagel@vsp.tu-berlin.de
+  url: http://www.tu-berlin.de/?id=12926
+  unit: technische_universit_t_berlin_institut_for_land_and_sea_transport_systems
+  active: true
+  roles:
+  - role: institution_representative
+    institution: technische_universit_t_berlin
+    legacy_id: '19'
+  legacy_id: KaiNage
+- id: andreas_neumann
+  title: Dr.
+  first_name: Andreas
+  last_name: Neumann
+  email: neumann@vsp.tu-berlin.de
+  unit: technische_universit_t_berlin_institut_for_land_and_sea_transport_systems
+  active: true
+  keywords:
+  - public transit network
+  - schedule construction
+  legacy_id: AndrNeum
+- id: otto_nielsen
+  title: Prof.
+  first_name: Otto
+  last_name: Nielsen
+  email: oani@dtu.dk
+  url: http://www.dtu.dk/service/telefonbog/person?id=1818&tab=1
+  unit: dtu_transport_science_department_of_technology_management_and_economics
+  active: true
+  roles:
+  - role: institution_representative
+    institution: dtu
+    legacy_id: '35'
+  legacy_id: OttoNiel
+- id: latifa_oukhellou
+  title: Prof.
+  first_name: Latifa
+  last_name: Oukhellou
+  email: latifa.oukhellou@univ-eiffel.fr
+  url: https://pagespro.univ-gustave-eiffel.fr/latifa-oukhellou
+  unit: universit_gustave_eiffel_grettia
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2026_heart_2026_14th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  - role: institution_representative
+    institution: universit_gustave_eiffel
+    legacy_id: '52'
+  legacy_id: LatiOukh
+- id: antonio_pais_antunes
+  title: Prof.
+  first_name: Antonio
+  last_name: Pais Antunes
+  email: antunes@dec.uc.pt
+  unit: university_of_coimbra_spatial_planning_and_transportation_engineering_unit
+  active: true
+  roles:
+  - role: institution_representative
+    institution: university_of_coimbra
+    legacy_id: '18'
+  legacy_id: AntoPais
+- id: markos_papageorgiou
+  title: Prof.
+  first_name: Markos
+  last_name: Papageorgiou
+  email: markos@dssl.tuc.gr
+  url: http://www.dssl.tuc.gr/en/members/papageorgiou.htm
+  unit: technical_university_of_crete_dynamic_systems_simulation_laboratory
+  active: true
+  legacy_id: MarkPapa
+- id: panos_papaioannou
+  title: Prof.
+  first_name: Panos
+  last_name: Papaioannou
+  email: panos@hermes.civil.auth.gr
+  unit: aut_tel
+  active: true
+  keywords:
+  - road safety
+  - sustainable mobility
+  - transport economics
+  legacy_id: PanoPapa
+- id: ioannis_papamichail
+  title: Prof.
+  first_name: Ioannis
+  last_name: Papamichail
+  email: ipapa@dssl.tuc.gr
+  unit: technical_university_of_crete_dynamic_systems_simulation_laboratory
+  active: true
+  roles:
+  - role: institution_representative
+    institution: technical_university_of_crete
+    legacy_id: '40'
+  legacy_id: IoanPapa
+- id: francisco_pereira
+  title: Prof.
+  first_name: Francisco
+  last_name: Pereira
+  email: camara@dtu.dk
+  url: https://orbit.dtu.dk/en/persons/francisco-c-p-d-camara-pereira
+  unit: dtu_transport_science_department_of_technology_management_and_economics
+  active: true
+  roles:
+  - role: committee_member
+  legacy_id: FranPeir
+- id: magda_pitsiava_latinopoulou
+  title: Prof.
+  first_name: Magda
+  last_name: Pitsiava-Latinopoulou
+  email: mpitsiav@civil.auth.gr
+  url: http://www.civil.auth.gr/component/option,com_contact/task,view/contact_id,113/Itemid,61/lang,en/
+  unit: aut_tel
+  active: true
+  roles:
+  - role: institution_representative
+    institution: aut
+    legacy_id: '26'
+  keywords:
+  - land use and transport interaction
+  - sustainable mobility
+  - traffic management
+  legacy_id: MagdPits
+- id: ioannis_politis
+  title: Dr.
+  first_name: Ioannis
+  last_name: Politis
+  email: pol@civil.auth.gr
+  unit: aut_tel
+  active: true
+  keywords:
+  - mode choice
+  - sustainable mobility
+  - traffic psychology
+  legacy_id: IonnPoli
+- id: vincenzo_punzo
+  title: Prof.
+  first_name: Vincenzo
+  last_name: Punzo
+  email: vincenzo.punzo@unina.it
+  url: https://www.docenti.unina.it/vincenzo.punzo
+  unit: university_of_naples_federico_ii_dipartimento_di_ingegneria_dei_trasporti
+  active: true
+  roles:
+  - role: institution_representative
+    institution: university_of_naples_federico_ii
+    legacy_id: '46'
+  legacy_id: VincPunz
+- id: mohsen_ramesani
+  title: Dr.
+  first_name: Mohsen
+  last_name: Ramesani
+  email: mohsen.ramezani@epfl.ch
+  unit: epfl_transportation_center
+  active: true
+  keywords:
+  - Machine Learning
+  - Traffic control
+  - Traffic flow
+  legacy_id: MohsRame
+- id: charles_raux
+  title: Prof.
+  first_name: Charles
+  last_name: Raux
+  email: Charles.Raux@let.ish-lyon.cnrs.fr
+  url: http://www.let.fr/fr/annuaire/auteurs/craux/index.php
+  unit: universit_de_lyon_laboratoire_d_economie_des_transports
+  active: true
+  keywords:
+  - behavioural economics
+  - land use and transport interactions
+  - pricing
+  legacy_id: CharRaux
+- id: stefano_ricci
+  title: Dr.
+  first_name: Stefano
+  last_name: Ricci
+  email: stefano.ricci@uniroma1.it
+  unit: sapienza_universit_di_roma_dicea
+  active: true
+  legacy_id: StefRicc
+- id: claudio_roncoli
+  title: Prof.
+  first_name: Claudio
+  last_name: Roncoli
+  email: claudio.roncoli@kuleuven.be
+  unit: kul_centre_for_industrial_management_traffic_and_infrastructure
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2024_heart_2024_12th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: second_institution_representative
+    institution: kul
+    legacy_id: '7'
+  legacy_id: ClauRonc
+- id: riccardo_scarinci
+  title: Dr.
+  first_name: Riccardo
+  last_name: Scarinci
+  email: riccardo.scarinci@epfl.ch
+  url: http://people.epfl.ch/riccardo.scarinci
+  unit: epfl_transportation_center
+  active: true
+  legacy_id: RiccScar
+- id: marie_schmidt
+  title: Dr.
+  first_name: Marie
+  last_name: Schmidt
+  email: schmidt2@rsm.nl
+  unit: erasmus_university_rotterdam_department_of_econometrics
+  active: true
+  keywords:
+  - Railways
+  legacy_id: MariSchm
+- id: shadi_sharif_azadeh
+  title: Prof.
+  first_name: Shadi
+  last_name: Sharif Azadeh
+  email: S.SharifAzadeh@tudelft.nl
+  url: https://www.erim.eur.nl/people/shadi-sharif-azadeh/
+  unit: tu_delft_department_of_transport_and_planning
+  active: true
+  roles:
+  - role: committee_member
+  - role: conference_chair
+    conference: heart_2029_heart_2029_17th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: tu_delft
+    legacy_id: '49'
+  legacy_id: ShadShar
+- id: yoram_shiftan
+  title: Prof.
+  first_name: Yoram
+  last_name: Shiftan
+  email: shiftan@technion.ac.il
+  url: http://www.technion.ac.il/~shiftan/
+  unit: israel_institute_of_technology_dpt_of_transportation_and_geo_information_engineering
+  active: true
+  roles:
+  - role: second_institution_representative
+    institution: israel_institute_of_technology
+    legacy_id: '10'
+  keywords:
+  - Activity-based modeling
+  - Sustainable transportation
+  - Transportation system analysis
+  legacy_id: YoraShif
+- id: st_phanie_souche
+  title: Prof.
+  first_name: Stéphanie
+  last_name: Souche
+  email: Stephanie.Souche@let.ish-lyon.cnrs.fr
+  unit: universit_de_lyon_laboratoire_d_economie_des_transports
+  active: true
+  keywords:
+  - Cost Benefit Analysis
+  - Economic Behaviour
+  - Pricing
+  legacy_id: StepSouc
+- id: ioanna_spyropoulou
+  title: Dr.
+  first_name: Ioanna
+  last_name: Spyropoulou
+  email: iospyrop@central.ntua.gr
+  unit: ntua_dpt_of_transportation_planning_and_engineering
+  active: true
+  keywords:
+  - intelligent transportation systems
+  - traffic flow theory
+  - traffic simulation
+  legacy_id: IonnSpyr
+- id: antony_stathopoulos
+  title: Prof.
+  first_name: Antony
+  last_name: Stathopoulos
+  email: a.stath@transport.ntua.gr
+  url: http://www.civil.ntua.gr/~astath/
+  unit: ntua_dpt_of_transportation_planning_and_engineering
+  active: true
+  legacy_id: AntoStat
+- id: lijun_sun
+  title: M.
+  first_name: Lijun
+  last_name: Sun
+  email: lijun.sun@ivt.baug.ethz.ch
+  unit: ethz_institute_for_transport_planning_and_systems
+  active: true
+  legacy_id: SunLij
+- id: yusak_susilo
+  title: Dr.
+  first_name: Yusak
+  last_name: Susilo
+  email: yusak.susilo@abe.kth.se
+  unit: kth_centre_for_transport_studies
+  active: true
+  keywords:
+  - structural equations
+  - transport policy
+  - travel behavior
+  legacy_id: YusaSusi
+- id: chris_tampere
+  title: Prof.
+  first_name: Chris
+  last_name: Tampere
+  email: Chris.Tampere@cib.kuleuven.be
+  url: https://www.kuleuven.be/wieiswie/en/person/00043918
+  unit: kul_centre_for_industrial_management_traffic_and_infrastructure
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2022_heart_2022_10th_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: institution_representative
+    institution: kul
+    legacy_id: '7'
+  legacy_id: ChriTamp
+- id: harry_timmermans
+  title: Prof.
+  first_name: Harry
+  last_name: Timmermans
+  email: H.J.P.Timmermans@tue.nl
+  url: http://www.tue.nl/en/employee/ep/e/d/19860008/?no_cache=1&cHash=7fb21594969e190f7290c3dfbb772cb3
+  unit: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  active: true
+  legacy_id: HarrTimm
+- id: tomer_toledo
+  title: Prof.
+  first_name: Tomer
+  last_name: Toledo
+  email: toledo@technion.ac.il
+  unit: israel_institute_of_technology_dpt_of_transportation_and_geo_information_engineering
+  active: true
+  keywords:
+  - Driver behavior modeling
+  - Intelligent transportation systems
+  - Traffic simulation
+  legacy_id: TomeTole
+- id: istv_n_varga
+  title: Prof.
+  first_name: István
+  last_name: Varga
+  email: ivarga@mail.bme.hu
+  unit: bme_faculty_of_transportation_engineering_and_vehicle_engineering
+  active: true
+  keywords:
+  - Network analysis and modelling
+  - Operations research
+  - Transport demand modelling
+  legacy_id: IstvVarg
+- id: francesco_viti
+  title: Prof.
+  first_name: Francesco
+  last_name: Viti
+  email: francesco.viti@uni.lu
+  url: https://mobilab.lu/francesco-viti/
+  unit: university_of_luxembourg_mobilab
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2022_heart_2022_10th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
+  - role: institution_representative
+    institution: university_of_luxembourg
+    legacy_id: '31'
+  legacy_id: FranViti
+- id: peter_vortisch
+  title: Prof.
+  first_name: Peter
+  last_name: Vortisch
+  email: peter.vortisch@kit.edu
+  url: http://www.ifv.kit.edu/english/21_158.php
+  unit: karlsruhe_institute_of_technology_institute_for_transport_studies
+  active: true
+  roles:
+  - role: institution_representative
+    institution: karlsruhe_institute_of_technology
+    legacy_id: '21'
+  keywords:
+  - simulation
+  - traffic engineering
+  - traffic flow
+  legacy_id: PeteVort
+- id: shaya_vosough
+  title: Prof.
+  first_name: Shaya
+  last_name: Vosough
+  url: https://research.aalto.fi/en/persons/shaya-vosough
+  unit: aalto_university_department_of_department_of_built_environment
+  active: true
+  roles:
+  - role: institution_representative
+    institution: aalto_university
+    legacy_id: '55'
+  legacy_id: ShayVoso
+- id: mark_wardman
+  title: Prof.
+  first_name: Mark
+  last_name: Wardman
+  email: m.r.wardman@its.leeds.ac.uk
+  url: http://www.its.leeds.ac.uk/people/staffProfile/?personId=757
+  unit: its_leeds_institute_for_transport_studies
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2014_heart_2014_3nd_symposium_of_the_european_association_for_research_in_transportation
+    order: 1
+  - role: past_committee_member
+  legacy_id: MarkWard
+- id: david_watling
+  title: Prof.
+  first_name: David
+  last_name: Watling
+  email: D.P.Watling@its.leeds.ac.uk
+  url: https://environment.leeds.ac.uk/transport/staff/987/professor-david-watling
+  unit: its_leeds_institute_for_transport_studies
+  active: true
+  roles:
+  - role: institution_representative
+    institution: its_leeds
+    legacy_id: '45'
+  legacy_id: DaviWatl
+- id: frank_witlox
+  title: Prof.
+  first_name: Frank
+  last_name: Witlox
+  email: Frank.Witlox@ugent.be
+  url: https://geoweb.ugent.be/repository/docs/users/fwitlox.pdf
+  unit: gu_seg
+  active: true
+  roles:
+  - role: institution_representative
+    institution: gu
+    legacy_id: '29'
+  keywords:
+  - Travel behavior
+  legacy_id: FranWitl
+- id: melvin_wong
+  title: Prof.
+  first_name: Melvin
+  last_name: Wong
+  email: m.j.w.wong@tue.nl
+  url: https://research.tue.nl/en/persons/melvin-wong
+  unit: eindhoven_university_of_technology_dpt_of_urban_planning_and_transportation
+  active: true
+  roles:
+  - role: institution_representative
+    institution: eindhoven_university_of_technology
+    legacy_id: '47'
+  legacy_id: MelvWong
+- id: george_yannis
+  title: Prof.
+  first_name: George
+  last_name: Yannis
+  email: geyannis@central.ntua.gr
+  url: https://www.nrso.ntua.gr/geyannis/
+  unit: ntua_dpt_of_transportation_planning_and_engineering
+  active: true
+  roles:
+  - role: institution_representative
+    institution: ntua
+    legacy_id: '11'
+  legacy_id: GeorYann
+- id: mahdi_zargayouna
+  title: Prof.
+  first_name: Mahdi
+  last_name: Zargayouna
+  email: mahdi.zargayouna@univ-eiffel.fr
+  unit: universit_gustave_eiffel_grettia
+  active: true
+  roles:
+  - role: conference_chair
+    conference: heart_2026_heart_2026_14th_symposium_of_the_european_association_for_research_in_transportation
+    order: 3
+  legacy_id: MahdZarg
+- id: nan_zheng
+  title: Dr.
+  first_name: Nan
+  last_name: Zheng
+  email: nan.zheng@epfl.ch
+  unit: epfl_transportation_center
+  active: true
+  keywords:
+  - Parking
+  - Pricing
+  - Public transport
+  legacy_id: NanZhen
