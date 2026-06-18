@@ -1,0 +1,11 @@
+[project]
+name = "heart"
+version = "0.1.0"
+description = "hEART: European Association for Research in Transportation"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.3",
+    "pycountry>=26.2.16",
+    "pyyaml>=6.0.3",
+]
