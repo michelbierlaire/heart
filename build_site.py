@@ -3,11 +3,13 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import json
 import shutil
 from datetime import date
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 from update_database import create_database
 import pandas as pd
@@ -16,6 +18,12 @@ import yaml
 from committe_members import extract_committee
 from extract_conference import extract_conference, extract_conference_years
 from list_of_members import extract_members
+from paper_metadata import (
+    load_paper_metadata,
+    paper_key,
+    paper_page_filename,
+    parse_author_names,
+)
 
 
 DOCS = Path("docs")
@@ -23,6 +31,8 @@ ASSETS = Path("assets")
 ABSTRACTS = DOCS / "abstracts"
 DATA = Path("data")
 CONTENT = DATA / "content.yml"
+PAPER_METADATA = DATA / "paper_metadata.json"
+SITE_URL = "https://heart-web.org"
 
 
 def read_content() -> dict[str, Any]:
@@ -70,6 +80,10 @@ def esc(value: Any) -> str:
     if value is None or pd.isna(value):
         return ""
     return html.escape(str(value))
+
+
+def url_path(path: str) -> str:
+    return "/".join(quote(part) for part in path.split("/"))
 
 
 def link(label: Any, url: Any) -> str:
@@ -134,6 +148,9 @@ def clean_docs() -> None:
     """Regenerate docs, but preserve docs/abstracts."""
     DOCS.mkdir(exist_ok=True)
 
+    for landing_page in ABSTRACTS.glob("**/*.html"):
+        landing_page.unlink()
+
     for path in DOCS.iterdir():
         if path.name == "abstracts":
             continue
@@ -144,19 +161,37 @@ def clean_docs() -> None:
 
     if ASSETS.exists():
         shutil.copytree(ASSETS, DOCS / "assets")
+    cname = Path("CNAME")
+    if cname.exists():
+        (DOCS / "CNAME").write_text(
+            cname.read_text(encoding="utf-8").rstrip("\r\n"), encoding="utf-8"
+        )
 
 
-def logo_html() -> str:
+def logo_html(relative_root: str = "") -> str:
     logo = DOCS / "assets" / "hEART-LOGO.png"
     if logo.exists():
-        return '<img src="assets/hEART-LOGO.png" alt="hEART logo" height="52">'
+        return f'<img src="{relative_root}assets/hEART-LOGO.png" alt="hEART logo" height="52">'
     return '<span class="fw-semibold fs-3">hEART</span>'
 
 
-def page(title: str, body: str, active: str = "") -> str:
+def page(
+    title: str,
+    body: str,
+    active: str = "",
+    canonical_url: str | None = None,
+    relative_root: str = "",
+    head_extra: str = "",
+) -> str:
     def nav(label: str, href: str, key: str) -> str:
         css = "active fw-semibold" if active == key else ""
-        return f'<a class="nav-link {css}" href="{href}">{label}</a>'
+        return f'<a class="nav-link {css}" href="{relative_root}{href}">{label}</a>'
+
+    canonical = (
+        f'  <link rel="canonical" href="{esc(canonical_url)}">\n'
+        if canonical_url
+        else ""
+    )
 
     return f"""<!doctype html>
 <html lang="en">
@@ -164,15 +199,16 @@ def page(title: str, body: str, active: str = "") -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
+{canonical}{head_extra}
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/heart.css">
+  <link rel="stylesheet" href="{relative_root}assets/css/heart.css">
 </head>
 <body>
 <header class="site-header">
   <div class="container py-3">
     <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
-      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="index.html">
-        {logo_html()}
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="{relative_root}index.html">
+        {logo_html(relative_root)}
         <div class="ms-3">
           <div class="brand-title">hEART</div>
           <div class="brand-subtitle">European Association for Research in Transportation</div>
@@ -427,16 +463,28 @@ def render_conference(conf: dict[str, Any]) -> None:
     conference_webpage = conference_webpage_html(conf)
 
     paper_rows = []
+    metadata = load_paper_metadata(PAPER_METADATA)
     for p in papers:
         pdf_file = p.get("pdf_file", "")
-        pdf_path = f"abstracts/{year}/{pdf_file}"
+        pdf_path = url_path(f"abstracts/{year}/{pdf_file}")
+        landing_path = f"abstracts/{year}/{paper_page_filename(pdf_file, p.get('title', ''))}"
+        pdf_exists = (ABSTRACTS / str(year) / pdf_file).exists()
+        paper_title = esc(p.get("title"))
+        authors = metadata.get(paper_key(year, pdf_file), {}).get("authors", [])
+        author_text = ", ".join(authors) or str(p.get("authors") or "")
+        title_cell = f'<a href="{esc(landing_path)}">{paper_title}</a>'
+        pdf_cell = (
+            f'<a href="{esc(pdf_path)}">PDF</a>'
+            if pdf_exists
+            else '<span class="text-muted">PDF unavailable</span>'
+        )
 
         paper_rows.append(
             f"""
 <tr>
-  <td>{esc(p.get("authors"))}</td>
-  <td class="paper-title">{esc(p.get("title"))}</td>
-  <td><a href="{esc(pdf_path)}">PDF</a></td>
+  <td>{esc(author_text)}</td>
+  <td class="paper-title">{title_cell}</td>
+  <td>{pdf_cell}</td>
 </tr>
 """
         )
@@ -478,7 +526,141 @@ def render_conference(conf: dict[str, Any]) -> None:
 {papers_html}
 """
     (DOCS / f"{year}.html").write_text(
-        page(f"hEART {year}", body, "conferences"),
+        page(
+            f"hEART {year}",
+            body,
+            "conferences",
+            canonical_url=f"{SITE_URL}/{year}.html",
+        ),
+        encoding="utf-8",
+    )
+
+
+def render_paper(
+    conf: dict[str, Any], paper: dict[str, str], metadata: dict[str, Any]
+) -> str:
+    year = int(conf["year"])
+    pdf_file = paper.get("pdf_file", "")
+    pdf_path = quote(pdf_file)
+    landing_filename = paper_page_filename(pdf_file, paper.get("title", ""))
+    landing_path = f"abstracts/{year}/{landing_filename}"
+    canonical_url = f"{SITE_URL}/{landing_path}"
+    authors = metadata.get("authors") or parse_author_names(paper.get("authors", ""), year)
+    abstract = str(metadata.get("abstract") or "").strip()
+    pdf_exists = bool(pdf_file) and (ABSTRACTS / str(year) / pdf_file).exists()
+    pdf_url = f"{SITE_URL}/abstracts/{year}/{url_path(pdf_file)}" if pdf_exists else ""
+    title = paper.get("title", "")
+    conference_name = str(conf.get("name") or "")
+    publication_year = str(year)
+    citation = f"{'; '.join(authors)} ({publication_year}). {title}. In: {conference_name}."
+    citation_authors = "\n".join(
+        f'  <meta name="citation_author" content="{esc(author)}">' for author in authors
+    )
+    scholarly_data = {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "name": title,
+        "headline": title,
+        "author": [{"@type": "Person", "name": author} for author in authors],
+        "abstract": abstract,
+        "datePublished": publication_year,
+        "url": canonical_url,
+        "mainEntityOfPage": canonical_url,
+        "isPartOf": {
+            "@type": "Event",
+            "name": conference_name,
+            "startDate": str(conf.get("start_date") or publication_year),
+        },
+    }
+    if pdf_url:
+        scholarly_data["encoding"] = {
+            "@type": "MediaObject",
+            "contentUrl": pdf_url,
+            "encodingFormat": "application/pdf",
+        }
+    citation_pdf_tag = (
+        f'\n  <meta name="citation_pdf_url" content="{esc(pdf_url)}">'
+        if pdf_url
+        else ""
+    )
+    head_extra = f"""  <meta name="citation_title" content="{esc(title)}">
+{citation_authors}
+  <meta name="citation_publication_date" content="{publication_year}">
+  <meta name="citation_conference_title" content="{esc(conference_name)}">
+{citation_pdf_tag}
+  <script type="application/ld+json">{json.dumps(scholarly_data, ensure_ascii=False)}</script>"""
+    abstract_html = (
+        "\n".join(f"<p>{esc(paragraph)}</p>" for paragraph in abstract.split("\n\n"))
+        if abstract
+        else '<p class="text-muted">The archived PDF does not contain an explicitly labelled abstract or short summary.</p>'
+    )
+    pdf_action = (
+        f'<a class="btn btn-primary" href="{esc(pdf_path)}">Download the PDF</a>'
+        if pdf_exists
+        else '<span class="text-muted">The source PDF is not present in the current archive.</span>'
+    )
+    body = f"""
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../{year}.html">hEART {year} conference papers</a></p>
+  <h1>{esc(title)}</h1>
+  <p class="lead">{esc(", ".join(authors))}</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">{esc(conference_name)} ({publication_year})</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">{publication_year}</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    {abstract_html}
+  </section>
+  <div class="mt-4">{pdf_action}</div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>{esc(citation)}</p>
+  </section>
+</article>
+"""
+    output = DOCS / "abstracts" / str(year) / landing_filename
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(
+        page(
+            title,
+            body,
+            "conferences",
+            canonical_url=canonical_url,
+            relative_root="../../",
+            head_extra=head_extra,
+        ),
+        encoding="utf-8",
+    )
+    return canonical_url
+
+
+def render_discovery_files(conferences: list[dict[str, Any]]) -> None:
+    urls = [f"{SITE_URL}/", f"{SITE_URL}/conferences.html"]
+    urls.extend(f"{SITE_URL}/{int(conf['year'])}.html" for conf in conferences)
+    for conf in conferences:
+        year = int(conf["year"])
+        for paper in read_papers(year):
+            pdf_file = paper.get("pdf_file", "")
+            urls.append(
+                f"{SITE_URL}/abstracts/{year}/{paper_page_filename(pdf_file, paper.get('title', ''))}"
+            )
+            if (ABSTRACTS / str(year) / pdf_file).exists():
+                urls.append(f"{SITE_URL}/abstracts/{year}/{url_path(pdf_file)}")
+    urlset = "\n".join(
+        f"  <url><loc>{html.escape(url, quote=True)}</loc></url>"
+        for url in sorted(set(urls))
+    )
+    (DOCS / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{urlset}\n</urlset>\n",
+        encoding="utf-8",
+    )
+    (DOCS / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\nSitemap: https://heart-web.org/sitemap.xml\n",
         encoding="utf-8",
     )
 
@@ -503,8 +685,18 @@ def build_site(database: Path) -> None:
     render_committee(committee)
     render_conferences(conferences)
 
+    metadata = load_paper_metadata(PAPER_METADATA)
     for conference in conferences:
         render_conference(conference)
+        year = int(conference["year"])
+        for paper in read_papers(year):
+            render_paper(
+                conference,
+                paper,
+                metadata.get(paper_key(year, paper.get("pdf_file", "")), {}),
+            )
+
+    render_discovery_files(conferences)
 
     print(f"Generated site in {DOCS.resolve()}")
     print("Preserved docs/abstracts.")

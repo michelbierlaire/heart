@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data</title>
+  <link rel="canonical" href="https://heart-web.org/abstracts/2017/hEART2017_paper_52.html">
+  <meta name="citation_title" content="Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data">
+  <meta name="citation_author" content="Maxim Janzen">
+  <meta name="citation_author" content="Kirill Müller">
+  <meta name="citation_author" content="Kay Axhausen">
+  <meta name="citation_publication_date" content="2017">
+  <meta name="citation_conference_title" content="hEART 2017: 6th Symposium of the European Association for Research in Transportation">
+
+  <meta name="citation_pdf_url" content="https://heart-web.org/abstracts/2017/hEART2017_paper_52.pdf">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data", "headline": "Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data", "author": [{"@type": "Person", "name": "Maxim Janzen"}, {"@type": "Person", "name": "Kirill Müller"}, {"@type": "Person", "name": "Kay Axhausen"}], "abstract": "Analysis of long-distance travel demand has recently become more relevant. The reason is the growing share of traffic due to journeys related to remote activities, which are not part of daily life. In today’s mobile world, these journeys are responsible for almost 50 percent of traffic overall. Consequently, there is a need for reliable long-distance travel forecasting tools, such as agent-based simulation with a suitable synthetic population that also covers irregular long-distance travel demand. In addition to socio-demographic attributes, each agent requires information on the number of long-distance tours, and the purpose and duration of each tour. Accuracy of the synthetic population is crucial in order to obtain valid results from the simulations. We will show how existing data sources can be utilized to synthesize a population with these characteristics.\n\nUsually, two data sources are used to synthesize a population for agent-based simulations. First, travel surveys are performed to obtain detailed information on the persons and their travel behavior for a sample of persons. Second, official statistics (register data) provide information on the marginal totals. A fitting algorithm is then applied to create a population that matches the travel behavior reported in the survey data as well as the marginal totals of the register data. The most popular approach is the iterative proportional fitting algorithm, but also other approaches have been employed, e.g. Bayesian Networks. In case of long-distance travel behavior, these two data sources are not sufficient, because it is known that travel surveys under-report long-distance travel heavily. Therefore an additional data source is needed. We propose to add passively collected mobile phone data, which is based either on GPS or on GSM. Mobile phone data is helpful since the obtained information on long-distance travel behavior is more reliable than results from survey data. On the other hand, the available samples of phone data lack socio-demographic information. Thus, it can not fully replace the travel diary data. Potentially, phone data can be substituted by any reliable source on long-distance travel behavior.\n\nIn order to overcome the drawbacks described, we propose to utilize all three data sources in our framework. Firstly, all respondents from the survey are treated as possible agents of the synthetic population. Socio-demographic variables that are of interest (e.g. sex, age class, education), the zone of the residence and the number of long-distance tours per purpose are taken from the survey. Previous research has shown that the number of tours reported in surveys is too low. Assuming uniform underreporting, we use the passively collected phone data to adjust this underreporting of long-distance tours in the travel survey data. The adjustment will preserve the dependency structure between socio-demographic attributes and the relative frequency of long-distance tours, using a technique akin to histogram matching in image processing. In the next step, generalized raking, a generalization of IPF, is used to find a weight for each person. Generalized raking can be used to compute weights for agents of a population and account for the marginal totals of the controlled variables. In this case, controlled variables are the number of tours per purpose (taken from phone data) and socio-demographics (taken from register data). The number of agents required for the population can be drawn with respect to the calculated weights. Finally, a duration needs to be assigned to each tour of the drawn agents. The duration can be imputed using a model based on the duration distributions given in the survey data. This model has to take into account zone types, purposes and some of the socio-demographic attributes. The result is a population of arbitrary size including information on socio-demographics and zone of residence as well as detailed long-distance travel demand. The framework takes advantage of the knowledge of marginal totals from register data, reliable travel information from phone data and socio-demographic influences from survey data. Thus, it is more reliable than traditional approaches using just survey and register data.\n\nThe framework presented above will be applied with three available data sources covering France in 2007. A national travel survey including a long-distance travel questionnaire was carried out at this time. In addition, register data is collected on a yearly basis by the National Institute of Statistics and Economic Studies (INSEE). Furthermore, the authors had access to aggregated results of a large sample of mobile phone billing data from a French mobile network operator. These three data sources are combined following the framework described above in order to synthesize a population. In case of the phone data, purpose imputation has to be performed, and the data set has to be rescaled because it covers just domestic travel within five months. We assume that the distribution of the number of long-distance tours is similar for all (central) European countries. Therefore, we will use the phone data from France in combination with survey data and register data from Switzerland in order to generate a synthetic population representing Swiss residents.", "datePublished": "2017", "url": "https://heart-web.org/abstracts/2017/hEART2017_paper_52.html", "mainEntityOfPage": "https://heart-web.org/abstracts/2017/hEART2017_paper_52.html", "isPartOf": {"@type": "Event", "name": "hEART 2017: 6th Symposium of the European Association for Research in Transportation", "startDate": "2017-09-12"}, "encoding": {"@type": "MediaObject", "contentUrl": "https://heart-web.org/abstracts/2017/hEART2017_paper_52.pdf", "encodingFormat": "application/pdf"}}</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/heart.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="../../index.html">
+        <img src="../../assets/hEART-LOGO.png" alt="hEART logo" height="52">
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          <a class="nav-link " href="../../index.html">Home</a>
+          <a class="nav-link " href="../../members.html">Members</a>
+          <a class="nav-link " href="../../committee.html">Committee</a>
+          <a class="nav-link active fw-semibold" href="../../conferences.html">Conferences</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../2017.html">hEART 2017 conference papers</a></p>
+  <h1>Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data</h1>
+  <p class="lead">Maxim Janzen, Kirill Müller, Kay Axhausen</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">hEART 2017: 6th Symposium of the European Association for Research in Transportation (2017)</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">2017</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    <p>Analysis of long-distance travel demand has recently become more relevant. The reason is the growing share of traffic due to journeys related to remote activities, which are not part of daily life. In today’s mobile world, these journeys are responsible for almost 50 percent of traffic overall. Consequently, there is a need for reliable long-distance travel forecasting tools, such as agent-based simulation with a suitable synthetic population that also covers irregular long-distance travel demand. In addition to socio-demographic attributes, each agent requires information on the number of long-distance tours, and the purpose and duration of each tour. Accuracy of the synthetic population is crucial in order to obtain valid results from the simulations. We will show how existing data sources can be utilized to synthesize a population with these characteristics.</p>
+<p>Usually, two data sources are used to synthesize a population for agent-based simulations. First, travel surveys are performed to obtain detailed information on the persons and their travel behavior for a sample of persons. Second, official statistics (register data) provide information on the marginal totals. A fitting algorithm is then applied to create a population that matches the travel behavior reported in the survey data as well as the marginal totals of the register data. The most popular approach is the iterative proportional fitting algorithm, but also other approaches have been employed, e.g. Bayesian Networks. In case of long-distance travel behavior, these two data sources are not sufficient, because it is known that travel surveys under-report long-distance travel heavily. Therefore an additional data source is needed. We propose to add passively collected mobile phone data, which is based either on GPS or on GSM. Mobile phone data is helpful since the obtained information on long-distance travel behavior is more reliable than results from survey data. On the other hand, the available samples of phone data lack socio-demographic information. Thus, it can not fully replace the travel diary data. Potentially, phone data can be substituted by any reliable source on long-distance travel behavior.</p>
+<p>In order to overcome the drawbacks described, we propose to utilize all three data sources in our framework. Firstly, all respondents from the survey are treated as possible agents of the synthetic population. Socio-demographic variables that are of interest (e.g. sex, age class, education), the zone of the residence and the number of long-distance tours per purpose are taken from the survey. Previous research has shown that the number of tours reported in surveys is too low. Assuming uniform underreporting, we use the passively collected phone data to adjust this underreporting of long-distance tours in the travel survey data. The adjustment will preserve the dependency structure between socio-demographic attributes and the relative frequency of long-distance tours, using a technique akin to histogram matching in image processing. In the next step, generalized raking, a generalization of IPF, is used to find a weight for each person. Generalized raking can be used to compute weights for agents of a population and account for the marginal totals of the controlled variables. In this case, controlled variables are the number of tours per purpose (taken from phone data) and socio-demographics (taken from register data). The number of agents required for the population can be drawn with respect to the calculated weights. Finally, a duration needs to be assigned to each tour of the drawn agents. The duration can be imputed using a model based on the duration distributions given in the survey data. This model has to take into account zone types, purposes and some of the socio-demographic attributes. The result is a population of arbitrary size including information on socio-demographics and zone of residence as well as detailed long-distance travel demand. The framework takes advantage of the knowledge of marginal totals from register data, reliable travel information from phone data and socio-demographic influences from survey data. Thus, it is more reliable than traditional approaches using just survey and register data.</p>
+<p>The framework presented above will be applied with three available data sources covering France in 2007. A national travel survey including a long-distance travel questionnaire was carried out at this time. In addition, register data is collected on a yearly basis by the National Institute of Statistics and Economic Studies (INSEE). Furthermore, the authors had access to aggregated results of a large sample of mobile phone billing data from a French mobile network operator. These three data sources are combined following the framework described above in order to synthesize a population. In case of the phone data, purpose imputation has to be performed, and the data set has to be rescaled because it covers just domestic travel within five months. We assume that the distribution of the number of long-distance tours is similar for all (central) European countries. Therefore, we will use the phone data from France in combination with survey data and register data from Switzerland in order to generate a synthetic population representing Swiss residents.</p>
+  </section>
+  <div class="mt-4"><a class="btn btn-primary" href="hEART2017_paper_52.pdf">Download the PDF</a></div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>Maxim Janzen; Kirill Müller; Kay Axhausen (2017). Population Synthesis for Long-Distance Travel Demand Simulations using Mobile Phone Data. In: hEART 2017: 6th Symposium of the European Association for Research in Transportation.</p>
+  </section>
+</article>
+
+</main>
+
+<footer class="container py-4 small">
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on 2026-08-23 by Michel Bierlaire.</span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling</title>
+  <link rel="canonical" href="https://heart-web.org/abstracts/2015/hEART_2015_submission_48.html">
+  <meta name="citation_title" content="Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling">
+  <meta name="citation_author" content="Nobuhiro Sanko">
+  <meta name="citation_publication_date" content="2015">
+  <meta name="citation_conference_title" content="hEART 2015: 4th Symposium of the European Association for Research in Transportation">
+
+  <meta name="citation_pdf_url" content="https://heart-web.org/abstracts/2015/hEART_2015_submission_48.pdf">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling", "headline": "Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling", "author": [{"@type": "Person", "name": "Nobuhiro Sanko"}], "abstract": "[Background] Use of recent data is crucial for disaggregate travel demand forecasting. There is a significant body of evidence that forecasts by models with the recent data outperform those by models with older data. However, enough samples are not always available from the recent time point. Therefore, an attempt has been made to collect smaller samples and use them together with older data, which is expected to result in better forecasts than using only the older data. A model updating is a technique to update models estimated with greater number of observations from the older time point by utilising smaller number of observations from the recent time point. One such technique is transfer scaling, where models are estimated with the older data and only alternative‐specific constants and scale parameters of utility functions are updated by using the recent data, while other parameters related to level‐of‐service and socio‐economic variables are used as is.\n\nAlthough model updating utilises data from two points in time, there is a case that a use of only smaller samples from the recent time point results in better forecasts than using both datasets. Badoe and Miller (1995) and Karasmaa and Pursula (1997) argue that even when the sample size of the recent data is small, say around 400‐500, additional use of the older data contributes little to improving forecasting.\n\nHowever, these studies have the following limitations: 1. The sample size of the older data is fixed, and only the sample size of the recent data is varied. 2. Smaller samples from the recent time point is chosen on a random basis, but their random draw was done only once, thereby results being coincidental. 3. Data are available from only two points in time, and the data from the second time point was used both for model updating and model validation.\n\nThe present study examines: should small samples from recent time point be used with older data? More specifically, in which case should only small samples collected recently be used? In which case should transfer scaling be used by utilising both datasets? The author answers this by utilising repeated cross‐ sectional data collected at four points in time. The sample sizes of the recent and older data are varied simultaneously. Furthermore, a bootstrapping technique is adopted to find results with statistical meaning.\n\n[Data] The repeated cross‐sectional data used in this study come from household travel surveys implemented in\n\nthe Nagoya Metropolitan Area, Japan, in 1971, 1981, 1991, and 2001. This study utilises data collected at the three time points of 1971, 1981, and 1991 for forecasting travel behaviour in 2001. The trips modelled are journeys to work (commuting) mode choice. Transport modes considered are rail, bus, and car.\n\n[Methodology] Five notations are introduced: y1, y2, n1, n2, and b. The y1 and y2 denote years when the data was collected: 1971, 1981, and 1991 (y1 < y2). The n1 and n2 represent the sample size from y1 and y2, respectively (n1 >= n2). The author examined 12 n's: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, and 10000. The b (= 1, 2, . . ., 200) represents a bootstrap repetition. The two inequalities in the above two parentheses mean that models estimated using larger samples (n1) from the older time point (y1) are updated by using smaller samples (n2) collected recently (y2).\n\nFor each y1, y2, n1, and n2, samples are randomly drawn 200 (b = 1, 2, . . ., 200) times with replacement. In total, 3 combinations of y's ((y1, y2) = (1971, 1981), (1971, 1991), and (1981, 1991)) * 78 combinations of n's (12*13/2) * 200 b's = 46,800 datasets are generated. For each y1, y2, n1, n2, and b, (1) a multinomial logit model is estimated by using n1 observations from y1, and the model is updated by using n2 observations from y2; (2) a multinomial logit model is estimated by using n2 observations from y2. These two types of models are applied to forecast behaviours of 2001.\n\nThe forecast performance is evaluated by log‐likelihood on the 2001 dataset. Let L1 (y1, y2, n1, n2, b) and L2 (y2, n2, b) represent log‐likelihoods by the above models (1) and (2), respectively. Note that L1 and L2 are not always available since smaller n1 and/or n2 sometimes cause poor estimates.\n\nIn addition, the following variable xb is defined for b = 1, 2, …, 200 only when both L1 and L2 are available.\n\nxb = L1 (y1, y2, n1, n2, b) ‐ L2 (y2, n2, b)\n\nThe author assumes that xb is normally distributed, and statistical tests are conducted.\n\n[Results] Based on statistical tests, in any combinations of sample sizes from two time points, transfer scaling never produces statistically significantly better forecasts than using only small samples from the recent time point. On the other hand, when the sample size from the recent time point increases, using only the most recent data produces statistically significantly better forecasts than transfer scaling. This suggests that the use of transfer scaling approach contributes little, but a closer look identifies the following implications (without statistical test). When the sample sizes from the older and the recent time points are very large and very small, respectively, the transfer scaling produces better forecasts. In addition, the distribution of L1 has less variance than that of L2, so the results are more robust. Furthermore, transfer scaling is less problematic regarding the poor estimates caused by the smaller number of observations from the recent time point.\n\n[References]\n\nBadoe, D.A., and E.J. Miller. Comparison of Alternative Methods for Updating Disaggregate Logit Mode Choice Models. Transportation Research Record, No. 1493, 1995, pp. 90‐100. Karasmaa, N., and M. Pursula. Empirical Studies of Transferability of Helsinki Metropolitan Area Travel Forecasting Models. Transportation Research Record, No. 1607, 1997, pp. 38‐44.", "datePublished": "2015", "url": "https://heart-web.org/abstracts/2015/hEART_2015_submission_48.html", "mainEntityOfPage": "https://heart-web.org/abstracts/2015/hEART_2015_submission_48.html", "isPartOf": {"@type": "Event", "name": "hEART 2015: 4th Symposium of the European Association for Research in Transportation", "startDate": "2015-09-09"}, "encoding": {"@type": "MediaObject", "contentUrl": "https://heart-web.org/abstracts/2015/hEART_2015_submission_48.pdf", "encodingFormat": "application/pdf"}}</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/heart.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="../../index.html">
+        <img src="../../assets/hEART-LOGO.png" alt="hEART logo" height="52">
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          <a class="nav-link " href="../../index.html">Home</a>
+          <a class="nav-link " href="../../members.html">Members</a>
+          <a class="nav-link " href="../../committee.html">Committee</a>
+          <a class="nav-link active fw-semibold" href="../../conferences.html">Conferences</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../2015.html">hEART 2015 conference papers</a></p>
+  <h1>Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling</h1>
+  <p class="lead">Nobuhiro Sanko</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">hEART 2015: 4th Symposium of the European Association for Research in Transportation (2015)</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">2015</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    <p>[Background] Use of recent data is crucial for disaggregate travel demand forecasting. There is a significant body of evidence that forecasts by models with the recent data outperform those by models with older data. However, enough samples are not always available from the recent time point. Therefore, an attempt has been made to collect smaller samples and use them together with older data, which is expected to result in better forecasts than using only the older data. A model updating is a technique to update models estimated with greater number of observations from the older time point by utilising smaller number of observations from the recent time point. One such technique is transfer scaling, where models are estimated with the older data and only alternative‐specific constants and scale parameters of utility functions are updated by using the recent data, while other parameters related to level‐of‐service and socio‐economic variables are used as is.</p>
+<p>Although model updating utilises data from two points in time, there is a case that a use of only smaller samples from the recent time point results in better forecasts than using both datasets. Badoe and Miller (1995) and Karasmaa and Pursula (1997) argue that even when the sample size of the recent data is small, say around 400‐500, additional use of the older data contributes little to improving forecasting.</p>
+<p>However, these studies have the following limitations: 1. The sample size of the older data is fixed, and only the sample size of the recent data is varied. 2. Smaller samples from the recent time point is chosen on a random basis, but their random draw was done only once, thereby results being coincidental. 3. Data are available from only two points in time, and the data from the second time point was used both for model updating and model validation.</p>
+<p>The present study examines: should small samples from recent time point be used with older data? More specifically, in which case should only small samples collected recently be used? In which case should transfer scaling be used by utilising both datasets? The author answers this by utilising repeated cross‐ sectional data collected at four points in time. The sample sizes of the recent and older data are varied simultaneously. Furthermore, a bootstrapping technique is adopted to find results with statistical meaning.</p>
+<p>[Data] The repeated cross‐sectional data used in this study come from household travel surveys implemented in</p>
+<p>the Nagoya Metropolitan Area, Japan, in 1971, 1981, 1991, and 2001. This study utilises data collected at the three time points of 1971, 1981, and 1991 for forecasting travel behaviour in 2001. The trips modelled are journeys to work (commuting) mode choice. Transport modes considered are rail, bus, and car.</p>
+<p>[Methodology] Five notations are introduced: y1, y2, n1, n2, and b. The y1 and y2 denote years when the data was collected: 1971, 1981, and 1991 (y1 &lt; y2). The n1 and n2 represent the sample size from y1 and y2, respectively (n1 &gt;= n2). The author examined 12 n&#x27;s: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 2000, and 10000. The b (= 1, 2, . . ., 200) represents a bootstrap repetition. The two inequalities in the above two parentheses mean that models estimated using larger samples (n1) from the older time point (y1) are updated by using smaller samples (n2) collected recently (y2).</p>
+<p>For each y1, y2, n1, and n2, samples are randomly drawn 200 (b = 1, 2, . . ., 200) times with replacement. In total, 3 combinations of y&#x27;s ((y1, y2) = (1971, 1981), (1971, 1991), and (1981, 1991)) * 78 combinations of n&#x27;s (12*13/2) * 200 b&#x27;s = 46,800 datasets are generated. For each y1, y2, n1, n2, and b, (1) a multinomial logit model is estimated by using n1 observations from y1, and the model is updated by using n2 observations from y2; (2) a multinomial logit model is estimated by using n2 observations from y2. These two types of models are applied to forecast behaviours of 2001.</p>
+<p>The forecast performance is evaluated by log‐likelihood on the 2001 dataset. Let L1 (y1, y2, n1, n2, b) and L2 (y2, n2, b) represent log‐likelihoods by the above models (1) and (2), respectively. Note that L1 and L2 are not always available since smaller n1 and/or n2 sometimes cause poor estimates.</p>
+<p>In addition, the following variable xb is defined for b = 1, 2, …, 200 only when both L1 and L2 are available.</p>
+<p>xb = L1 (y1, y2, n1, n2, b) ‐ L2 (y2, n2, b)</p>
+<p>The author assumes that xb is normally distributed, and statistical tests are conducted.</p>
+<p>[Results] Based on statistical tests, in any combinations of sample sizes from two time points, transfer scaling never produces statistically significantly better forecasts than using only small samples from the recent time point. On the other hand, when the sample size from the recent time point increases, using only the most recent data produces statistically significantly better forecasts than transfer scaling. This suggests that the use of transfer scaling approach contributes little, but a closer look identifies the following implications (without statistical test). When the sample sizes from the older and the recent time points are very large and very small, respectively, the transfer scaling produces better forecasts. In addition, the distribution of L1 has less variance than that of L2, so the results are more robust. Furthermore, transfer scaling is less problematic regarding the poor estimates caused by the smaller number of observations from the recent time point.</p>
+<p>[References]</p>
+<p>Badoe, D.A., and E.J. Miller. Comparison of Alternative Methods for Updating Disaggregate Logit Mode Choice Models. Transportation Research Record, No. 1493, 1995, pp. 90‐100. Karasmaa, N., and M. Pursula. Empirical Studies of Transferability of Helsinki Metropolitan Area Travel Forecasting Models. Transportation Research Record, No. 1607, 1997, pp. 38‐44.</p>
+  </section>
+  <div class="mt-4"><a class="btn btn-primary" href="hEART_2015_submission_48.pdf">Download the PDF</a></div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>Nobuhiro Sanko (2015). Should small samples from recent time point be used with older data? Applicability of updating models by transfer scaling. In: hEART 2015: 4th Symposium of the European Association for Research in Transportation.</p>
+  </section>
+</article>
+
+</main>
+
+<footer class="container py-4 small">
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on 2026-08-23 by Michel Bierlaire.</span>
+  </div>
+</footer>
+</body>
+</html>

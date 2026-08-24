@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bayesian route choice inference using Bluetooth technology</title>
+  <link rel="canonical" href="https://heart-web.org/abstracts/2017/hEART2017_paper_96.html">
+  <meta name="citation_title" content="Bayesian route choice inference using Bluetooth technology">
+  <meta name="citation_author" content="Francisco Garrido-Valenzuela">
+  <meta name="citation_author" content="Juan C Herrera">
+  <meta name="citation_author" content="Sebastián Raveau">
+  <meta name="citation_publication_date" content="2017">
+  <meta name="citation_conference_title" content="hEART 2017: 6th Symposium of the European Association for Research in Transportation">
+
+  <meta name="citation_pdf_url" content="https://heart-web.org/abstracts/2017/hEART2017_paper_96.pdf">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Bayesian route choice inference using Bluetooth technology", "headline": "Bayesian route choice inference using Bluetooth technology", "author": [{"@type": "Person", "name": "Francisco Garrido-Valenzuela"}, {"@type": "Person", "name": "Juan C Herrera"}, {"@type": "Person", "name": "Sebastián Raveau"}], "abstract": "The emerging problem of traffic congestion in metropolitan cities generates the necessity for a better comprehension of how travellers move along the network. Traditionally, travel demand information is obtained through paper-based methods such as household surveys or intercept surveys. Although these methods provide detailed information, their high costs do not allow to keep the data regularly updated. Other traffic data collection methods, such as loop detectors do not provide details regarding the vehicles routes and license plate recognition require high data processing costs. With a complete knowledge of the travel demand patterns it is possible to calibrate more detailed and reliable models, design traffic management schemes and support transport planning, among other objectives. It is necessary then to develop and apply new methods to obtain travel demand data with high details and lower costs.\n\nBluetooth technology can be used to track specific vehicles by their MAC address; this can be done by installing Bluetooth detectors at selected intersections of a study area. The advantages of this technology are its low cost, ease of implementation and quality of the resultant data. Each detector can registry the unique MAC address of the vehicles equipped with Bluetooth technology, timestamp and position of the antenna. This work consider that all detections have been filtered to delete multi detections on the same vehicle (two phones for example) and mistakes on the data. Based on these detections, it could be possible to track vehicles within the study area. However, an equipped vehicle is not necessarily detected at every intersection as detection probabilities depend on many factors such as weather conditions, nearby infrastructure or vehicles speeds. This way, given the lack of perfect information, it is necessary to infer the most likely routes chosen by those vehicles.\n\nThis study presents a methodology to infer route choices in a transport network based on Bluetooth information. This is achieved by reconstructing paths between two consecutive Bluetooth detections from the same vehicle. It should be considered that when a vehicle travels between these two detection points, it might have not been recorded by other antennas by which the vehicle is passed by. Choice probabilities for each route between these detections points are obtained. These probabilities consider the number of missed detections for each route, the observed travel time and the travel time distribution of all vehicles following those routes at the same time interval. Once the choice probabilities between two successive detections are obtained, it is possible to infer the overall route choice probability from origin to destination by repeating the same process for every pair of successive detections.\n\nThe methodology has two steps: (i) a pre-load of information to the network and (ii) a route inferring. To understand the methodology, consider a study area with Bluetooth detectors installed in some intersections of the real transport network. A theoretical network is created considering intersections with antennas (nodes) and directional streets (links).\n\nIn the first step, with the collected Bluetooth data, a distribution for the time spent by the vehicles at each intersection is calibrated. This time is defined as the difference between the last and first detections of a vehicle at the intersection. Similarly, travel time distributions between intersections are obtained as the difference between the last detection of the vehicle in the upstream detector\n\nand the first detection in the downstream detector. Both types of distributions are calibrated for different periods of the day.\n\nThe second step consists on inferring the most likely routes between each pair of consecutives detections. To do this analysis it is necessary to list the possible routes among these detection points. Then, A calibration of travel time distribution for each route are made by convolving the travel time and the spent time distributions of all links and nodes that belong to individually route. Finally, it is possible to obtain the choices probabilities based on (i) the number of detectors per path and (ii) a Bayesian inference over the travel time distributions and the observed travel time of the vehicle on consecutive detections. The second step is repeated for each pair of consecutive detections of the vehicle to build the entire route.\n\nTo test the methodology, an AIMSUN simulation is perform considering different networks; these networks differ on the quantities and locations of detectors, to show the robustness of the model in different scenarios. As in each simulation the actual routes taken by the vehicles are known, it is possible to assess the performance of the proposed methodology.", "datePublished": "2017", "url": "https://heart-web.org/abstracts/2017/hEART2017_paper_96.html", "mainEntityOfPage": "https://heart-web.org/abstracts/2017/hEART2017_paper_96.html", "isPartOf": {"@type": "Event", "name": "hEART 2017: 6th Symposium of the European Association for Research in Transportation", "startDate": "2017-09-12"}, "encoding": {"@type": "MediaObject", "contentUrl": "https://heart-web.org/abstracts/2017/hEART2017_paper_96.pdf", "encodingFormat": "application/pdf"}}</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/heart.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="../../index.html">
+        <img src="../../assets/hEART-LOGO.png" alt="hEART logo" height="52">
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          <a class="nav-link " href="../../index.html">Home</a>
+          <a class="nav-link " href="../../members.html">Members</a>
+          <a class="nav-link " href="../../committee.html">Committee</a>
+          <a class="nav-link active fw-semibold" href="../../conferences.html">Conferences</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../2017.html">hEART 2017 conference papers</a></p>
+  <h1>Bayesian route choice inference using Bluetooth technology</h1>
+  <p class="lead">Francisco Garrido-Valenzuela, Juan C Herrera, Sebastián Raveau</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">hEART 2017: 6th Symposium of the European Association for Research in Transportation (2017)</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">2017</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    <p>The emerging problem of traffic congestion in metropolitan cities generates the necessity for a better comprehension of how travellers move along the network. Traditionally, travel demand information is obtained through paper-based methods such as household surveys or intercept surveys. Although these methods provide detailed information, their high costs do not allow to keep the data regularly updated. Other traffic data collection methods, such as loop detectors do not provide details regarding the vehicles routes and license plate recognition require high data processing costs. With a complete knowledge of the travel demand patterns it is possible to calibrate more detailed and reliable models, design traffic management schemes and support transport planning, among other objectives. It is necessary then to develop and apply new methods to obtain travel demand data with high details and lower costs.</p>
+<p>Bluetooth technology can be used to track specific vehicles by their MAC address; this can be done by installing Bluetooth detectors at selected intersections of a study area. The advantages of this technology are its low cost, ease of implementation and quality of the resultant data. Each detector can registry the unique MAC address of the vehicles equipped with Bluetooth technology, timestamp and position of the antenna. This work consider that all detections have been filtered to delete multi detections on the same vehicle (two phones for example) and mistakes on the data. Based on these detections, it could be possible to track vehicles within the study area. However, an equipped vehicle is not necessarily detected at every intersection as detection probabilities depend on many factors such as weather conditions, nearby infrastructure or vehicles speeds. This way, given the lack of perfect information, it is necessary to infer the most likely routes chosen by those vehicles.</p>
+<p>This study presents a methodology to infer route choices in a transport network based on Bluetooth information. This is achieved by reconstructing paths between two consecutive Bluetooth detections from the same vehicle. It should be considered that when a vehicle travels between these two detection points, it might have not been recorded by other antennas by which the vehicle is passed by. Choice probabilities for each route between these detections points are obtained. These probabilities consider the number of missed detections for each route, the observed travel time and the travel time distribution of all vehicles following those routes at the same time interval. Once the choice probabilities between two successive detections are obtained, it is possible to infer the overall route choice probability from origin to destination by repeating the same process for every pair of successive detections.</p>
+<p>The methodology has two steps: (i) a pre-load of information to the network and (ii) a route inferring. To understand the methodology, consider a study area with Bluetooth detectors installed in some intersections of the real transport network. A theoretical network is created considering intersections with antennas (nodes) and directional streets (links).</p>
+<p>In the first step, with the collected Bluetooth data, a distribution for the time spent by the vehicles at each intersection is calibrated. This time is defined as the difference between the last and first detections of a vehicle at the intersection. Similarly, travel time distributions between intersections are obtained as the difference between the last detection of the vehicle in the upstream detector</p>
+<p>and the first detection in the downstream detector. Both types of distributions are calibrated for different periods of the day.</p>
+<p>The second step consists on inferring the most likely routes between each pair of consecutives detections. To do this analysis it is necessary to list the possible routes among these detection points. Then, A calibration of travel time distribution for each route are made by convolving the travel time and the spent time distributions of all links and nodes that belong to individually route. Finally, it is possible to obtain the choices probabilities based on (i) the number of detectors per path and (ii) a Bayesian inference over the travel time distributions and the observed travel time of the vehicle on consecutive detections. The second step is repeated for each pair of consecutive detections of the vehicle to build the entire route.</p>
+<p>To test the methodology, an AIMSUN simulation is perform considering different networks; these networks differ on the quantities and locations of detectors, to show the robustness of the model in different scenarios. As in each simulation the actual routes taken by the vehicles are known, it is possible to assess the performance of the proposed methodology.</p>
+  </section>
+  <div class="mt-4"><a class="btn btn-primary" href="hEART2017_paper_96.pdf">Download the PDF</a></div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>Francisco Garrido-Valenzuela; Juan C Herrera; Sebastián Raveau (2017). Bayesian route choice inference using Bluetooth technology. In: hEART 2017: 6th Symposium of the European Association for Research in Transportation.</p>
+  </section>
+</article>
+
+</main>
+
+<footer class="container py-4 small">
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on 2026-08-23 by Michel Bierlaire.</span>
+  </div>
+</footer>
+</body>
+</html>

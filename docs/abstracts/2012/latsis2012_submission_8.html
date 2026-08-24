@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A route guidance model based on system optimality level and deterministic route choice behavior</title>
+  <link rel="canonical" href="https://heart-web.org/abstracts/2012/latsis2012_submission_8.html">
+  <meta name="citation_title" content="A route guidance model based on system optimality level and deterministic route choice behavior">
+  <meta name="citation_author" content="B. Mirbaha">
+  <meta name="citation_author" content="M. Saggarzadeh">
+  <meta name="citation_author" content="S. Seyedabrishami">
+  <meta name="citation_publication_date" content="2012">
+  <meta name="citation_conference_title" content="Latsis symposium 2012: 1st European Symposium on Quantitative Methods in Transportation Systems">
+
+  <meta name="citation_pdf_url" content="https://heart-web.org/abstracts/2012/latsis2012_submission_8.pdf">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "A route guidance model based on system optimality level and deterministic route choice behavior", "headline": "A route guidance model based on system optimality level and deterministic route choice behavior", "author": [{"@type": "Person", "name": "B. Mirbaha"}, {"@type": "Person", "name": "M. Saggarzadeh"}, {"@type": "Person", "name": "S. Seyedabrishami"}], "abstract": "Traffic networks around the world, especially in densely populated areas, have experienced a growing rise in commuting time due to increasing levels of traffic. The increased congestion seen in many major cities represents a serious problem for roadway operators and commuters every day. Transportation authorities are looking for new traffic management techniques to better manage traffic and reduce congestion, delay and long queues in urban networks. To this end, a route guidance system that is a part of intelligent transportation systems would provide travelers with information on the best route to their destinations.\n\nIn past few years, many concepts had been applied for route guidance. For instance, User equilibrium (UE) model assumes that humans choose a route to minimize his / her travel time and this behavior on the individual level creates equilibrium at the network level. While user equilibrium should satisfy the drivers, it does not necessarily minimize the total travel time in the system, which is defined as the sum of all travelers' travel times. Thus, traffic assignment under UE assumption is not always the same as system optimal traffic assignment. Roughgarden and Tardos (2002) provide examples that show that the total travel time in UE can be arbitrarily large compared to that of the system optimum [1].\n\nIn another aspect, Traffic managers look for strategies that guide drivers in order to optimize total network travel times. In other words, they seek for system optimality. System optimality condition is occurring with an illustrative assumption. If this policy directly implemented, it could route some drivers on unacceptably long paths in order to use shorter paths for many other drivers [2]. In fact, the length of a route in the system optimum can be higher than in user equilibrium, even in the simplistic case of a single origin-destination pair [1]. By definition, the system optimality (SO) solution entails some long routes which may imply fewer common routes with the driver-preferred set [3]. If the routing instructions are not strictly followed by all travelers, the compliance is below 100%, reducing the effectiveness of the guidance system. So, the main concern of system optimality is the compliance rate of the network users.\n\nIn this research, a route guidance system was proposed in which the system administrator can guide the users by considering their route choice preference and system tolerance level. System tolerance can be defined as the difference between the total cost of the network in system optimality and any other conditions which can be encountered as a result of user route choice. Thus, A new parameter ( γ rsk ,sk ) can be defined as below:\n\n∑ c ×λ      a       ars k\n\na∈τ rsk                                                                            (1) γ rsk ,sk =                                  ; ∀r ∈ R, s ∈ S , k ∈ Krs , kSK ∈ SK rs Crs kSK\n\nWhere: : γ rsk , sk : The overlapping factor between the costs of the route (k) with the same route while network is in system optimality condition (sk) for O-D pair r-s, k τ rs The link sets of the route k for O-D pair r-s, : ca : The cost of link a, a ∈ A , ∶ Set of system optimality routes, : Set of route between origin r ( r ∈ R ) and destination s ( s ∈ S ) C rskSK : The cost of the route k in system optimality assignment condition ( ksk ∈ SKrs ) for O-D pair r-s , λars k : is the link-route incidence matrix for O-D pair r-s. 1          if link a is on route k between O − D pairr − s λars k =  0          Otherwise\n\nWhen the overlapping factor, γ rsk , sk , exceeds the System tolerance level , the route will be removed from the route guidance set and other choices will be introduced to users.\n\nSystem tolerance level ( ωo ) is considered as a binary variable which defines the possibility of route β rsk , sk ). In this case, at any time period, the overlapping factor of each route ( guidance (                                                                                                   γ rsk , sk ) is being compared with System tolerance level. If the overlapping parameter between route (k) and system optimality route (sk) for O-D pair r-s is less than System tolerance level, the users will be guided through the route. The mathematical definition can be expressed as follows:\n\nk , sk If γ rs       ≤ ωo Where ωo ≥ 1 β rsk , sk =                                                                                      (2) 0                                        Otherwise\n\nWhere:\n\nβ rsk , sk : The binary variable which is 1 if the overlapping parameter of the route (k) and route (sk) is less than system tolerance level and 0 otherwise\n\nωo : System Tolerance Level\n\nk , sk ω In equation 2, when β rs is equal to 1, the route guidance is possible. When o reaches 1, the route guidance system does not accept any routes except the system optimality ones and in complete ω obedience assumption of users, network condition reaches near to system optimality. By growing o , the route guidance system loses his sensitivity and routes can be completely accessible and naturally they select the route with shortest perceived travel time.\n\nIn formulation level, we consider a model of reactive route guidance that allows us to work with static flows. As can be seen in Figure 1, formulation is developed in 2 stages. In the first stage, the model runs a system optimality assignment on the network to produce the comparing measures for route guidance. The second model performs the route guidance based on UE. A threshold has been set to make network close to system equilibrium. The threshold has been used to introduce new sets of routes to users in different time periods. User select a route among the introduced route set.\n\nThe developed model is tested for simple illustrative network. Results show that the proposed route guidance model has the most effects on total travel time of the network when system tolerance level changes from 1 to 1.4. When the tolerance parameter of the system reaches 1.1, the total travel time of the network is decreased more than 13 percent compare to UE condition. Furthermore, the results show that only a little share of users (15 percent of users in most case) in comparison with UE condition will change their routes.", "datePublished": "2012", "url": "https://heart-web.org/abstracts/2012/latsis2012_submission_8.html", "mainEntityOfPage": "https://heart-web.org/abstracts/2012/latsis2012_submission_8.html", "isPartOf": {"@type": "Event", "name": "Latsis symposium 2012: 1st European Symposium on Quantitative Methods in Transportation Systems", "startDate": "2012-09-04"}, "encoding": {"@type": "MediaObject", "contentUrl": "https://heart-web.org/abstracts/2012/latsis2012_submission_8.pdf", "encodingFormat": "application/pdf"}}</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/heart.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="../../index.html">
+        <img src="../../assets/hEART-LOGO.png" alt="hEART logo" height="52">
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          <a class="nav-link " href="../../index.html">Home</a>
+          <a class="nav-link " href="../../members.html">Members</a>
+          <a class="nav-link " href="../../committee.html">Committee</a>
+          <a class="nav-link active fw-semibold" href="../../conferences.html">Conferences</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../2012.html">hEART 2012 conference papers</a></p>
+  <h1>A route guidance model based on system optimality level and deterministic route choice behavior</h1>
+  <p class="lead">B. Mirbaha, M. Saggarzadeh, S. Seyedabrishami</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">Latsis symposium 2012: 1st European Symposium on Quantitative Methods in Transportation Systems (2012)</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">2012</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    <p>Traffic networks around the world, especially in densely populated areas, have experienced a growing rise in commuting time due to increasing levels of traffic. The increased congestion seen in many major cities represents a serious problem for roadway operators and commuters every day. Transportation authorities are looking for new traffic management techniques to better manage traffic and reduce congestion, delay and long queues in urban networks. To this end, a route guidance system that is a part of intelligent transportation systems would provide travelers with information on the best route to their destinations.</p>
+<p>In past few years, many concepts had been applied for route guidance. For instance, User equilibrium (UE) model assumes that humans choose a route to minimize his / her travel time and this behavior on the individual level creates equilibrium at the network level. While user equilibrium should satisfy the drivers, it does not necessarily minimize the total travel time in the system, which is defined as the sum of all travelers&#x27; travel times. Thus, traffic assignment under UE assumption is not always the same as system optimal traffic assignment. Roughgarden and Tardos (2002) provide examples that show that the total travel time in UE can be arbitrarily large compared to that of the system optimum [1].</p>
+<p>In another aspect, Traffic managers look for strategies that guide drivers in order to optimize total network travel times. In other words, they seek for system optimality. System optimality condition is occurring with an illustrative assumption. If this policy directly implemented, it could route some drivers on unacceptably long paths in order to use shorter paths for many other drivers [2]. In fact, the length of a route in the system optimum can be higher than in user equilibrium, even in the simplistic case of a single origin-destination pair [1]. By definition, the system optimality (SO) solution entails some long routes which may imply fewer common routes with the driver-preferred set [3]. If the routing instructions are not strictly followed by all travelers, the compliance is below 100%, reducing the effectiveness of the guidance system. So, the main concern of system optimality is the compliance rate of the network users.</p>
+<p>In this research, a route guidance system was proposed in which the system administrator can guide the users by considering their route choice preference and system tolerance level. System tolerance can be defined as the difference between the total cost of the network in system optimality and any other conditions which can be encountered as a result of user route choice. Thus, A new parameter ( γ rsk ,sk ) can be defined as below:</p>
+<p>∑ c ×λ      a       ars k</p>
+<p>a∈τ rsk                                                                            (1) γ rsk ,sk =                                  ; ∀r ∈ R, s ∈ S , k ∈ Krs , kSK ∈ SK rs Crs kSK</p>
+<p>Where: : γ rsk , sk : The overlapping factor between the costs of the route (k) with the same route while network is in system optimality condition (sk) for O-D pair r-s, k τ rs The link sets of the route k for O-D pair r-s, : ca : The cost of link a, a ∈ A , ∶ Set of system optimality routes, : Set of route between origin r ( r ∈ R ) and destination s ( s ∈ S ) C rskSK : The cost of the route k in system optimality assignment condition ( ksk ∈ SKrs ) for O-D pair r-s , λars k : is the link-route incidence matrix for O-D pair r-s. 1          if link a is on route k between O − D pairr − s λars k =  0          Otherwise</p>
+<p>When the overlapping factor, γ rsk , sk , exceeds the System tolerance level , the route will be removed from the route guidance set and other choices will be introduced to users.</p>
+<p>System tolerance level ( ωo ) is considered as a binary variable which defines the possibility of route β rsk , sk ). In this case, at any time period, the overlapping factor of each route ( guidance (                                                                                                   γ rsk , sk ) is being compared with System tolerance level. If the overlapping parameter between route (k) and system optimality route (sk) for O-D pair r-s is less than System tolerance level, the users will be guided through the route. The mathematical definition can be expressed as follows:</p>
+<p>k , sk If γ rs       ≤ ωo Where ωo ≥ 1 β rsk , sk =                                                                                      (2) 0                                        Otherwise</p>
+<p>Where:</p>
+<p>β rsk , sk : The binary variable which is 1 if the overlapping parameter of the route (k) and route (sk) is less than system tolerance level and 0 otherwise</p>
+<p>ωo : System Tolerance Level</p>
+<p>k , sk ω In equation 2, when β rs is equal to 1, the route guidance is possible. When o reaches 1, the route guidance system does not accept any routes except the system optimality ones and in complete ω obedience assumption of users, network condition reaches near to system optimality. By growing o , the route guidance system loses his sensitivity and routes can be completely accessible and naturally they select the route with shortest perceived travel time.</p>
+<p>In formulation level, we consider a model of reactive route guidance that allows us to work with static flows. As can be seen in Figure 1, formulation is developed in 2 stages. In the first stage, the model runs a system optimality assignment on the network to produce the comparing measures for route guidance. The second model performs the route guidance based on UE. A threshold has been set to make network close to system equilibrium. The threshold has been used to introduce new sets of routes to users in different time periods. User select a route among the introduced route set.</p>
+<p>The developed model is tested for simple illustrative network. Results show that the proposed route guidance model has the most effects on total travel time of the network when system tolerance level changes from 1 to 1.4. When the tolerance parameter of the system reaches 1.1, the total travel time of the network is decreased more than 13 percent compare to UE condition. Furthermore, the results show that only a little share of users (15 percent of users in most case) in comparison with UE condition will change their routes.</p>
+  </section>
+  <div class="mt-4"><a class="btn btn-primary" href="latsis2012_submission_8.pdf">Download the PDF</a></div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>B. Mirbaha; M. Saggarzadeh; S. Seyedabrishami (2012). A route guidance model based on system optimality level and deterministic route choice behavior. In: Latsis symposium 2012: 1st European Symposium on Quantitative Methods in Transportation Systems.</p>
+  </section>
+</article>
+
+</main>
+
+<footer class="container py-4 small">
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on 2026-08-23 by Michel Bierlaire.</span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prediction Model Adaptation in Response to Traffic Disruptions</title>
+  <link rel="canonical" href="https://heart-web.org/abstracts/2017/hEART2017_paper_97.html">
+  <meta name="citation_title" content="Prediction Model Adaptation in Response to Traffic Disruptions">
+  <meta name="citation_author" content="Francisco Camara Pereira">
+  <meta name="citation_author" content="Raghuveer Kamalakar">
+  <meta name="citation_author" content="Inon Peled">
+  <meta name="citation_publication_date" content="2017">
+  <meta name="citation_conference_title" content="hEART 2017: 6th Symposium of the European Association for Research in Transportation">
+
+  <meta name="citation_pdf_url" content="https://heart-web.org/abstracts/2017/hEART2017_paper_97.pdf">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Prediction Model Adaptation in Response to Traffic Disruptions", "headline": "Prediction Model Adaptation in Response to Traffic Disruptions", "author": [{"@type": "Person", "name": "Francisco Camara Pereira"}, {"@type": "Person", "name": "Raghuveer Kamalakar"}, {"@type": "Person", "name": "Inon Peled"}], "abstract": "Under normal conditions, traffic is prone to behave in a rather predictable manner. For instance, a road segment typically experiences similar travel times at the same moment each week ; congestion appears and disappears in peak hours at recurring locations ; the number of vehicles entering and exiting a highway is similar each weekday. Consequently, a model trained over enough traffic data can yield satisfactory predictions on most occasions. However, such a model can perform very inaccurately when applied to abnormal traffic conditions. Alas, it is during unforeseen traffic disruptions — such as road blockage due to accident or force of nature — that good prediction quality is most needed. The adverse effects of such incidents propagate from where they occur into the rest of the road network. It is therefore reasonable to expect that a prediction model Mpormat; fit for ordinary traffic conditions, will perform poorly during extraordinary traffic conditions. Abnormal traffic conditions thus require a different, specifically adapted prediction model Mabnormal, Which is highly distinguishable from Mpormai- For example, the two models can differ not only in the values of parameters, but also in the variables they actually depend on. This discernment encourages some questions:\n\ne@ What are the major changes between Mpormat and Mabnormal?\n\ne How much degradation does Mnormai experience when applied to abnormal conditions?\n\ne When a road incident occurs, can we directly calibrate Mapnormal given the incident properties, e.g.           location and time, network topology, and capacity reduction?\n\nSummarized into one research question, we can ask:\n\ne Given the parameters of a road incident, how effectively can we transition between Myormat ANd Mabnormal — from the onset of the incident, through its aftermath, and until it is cleared?\n\nTraditional machine learning methods for answering this question, such as Dynamical Systems and Time Series analysis, typically expect smooth dynamics. That is, whenever disruptions occur, a recovery period is required to collect enough data for the models to re-calibrate. However, the wait might be too long to afford, particularly in case of incidents which require quick response by road practitioners and rescue personnel. In this work, we study the research question using micro-simulations based on real-world data from freeways. This approach has several advantages. It alleviates the dependency on incidents data, which is often limited. It also allows a high degree of freedom in choosing parameters and features. And multiple simulations, each perturbed differently, can yield stable models through repeated training. The real-world data for our simulations consists of daily traffic counts for the Hillergdvej motorway, located in the Greater Copenhagen Area in Denmark. Stretching over about 11 km, this highway faces routine congestion for numerous reasons: inadequate capacity, frequent changes in infrastructure, non-recurrent incidents, and lack of room for emergency parking. This motorway is therefore an appealing candidate for modelling and study. Our main tool for designing and executing micro-simulations is PTV Vissim, which is well-suited for freeway modeling involving complex interactions. Rich literature is available regarding proper calibration of PTV Vissim for realistic simulation of traffic behavior. We use it to construct and train the aforementioned models independently:   ‘normal iS trained over incident-free simulations, whereas Mabnormal is trained over simulations where a road blockage forms for some time. Having constructed Mnormat and Mabnormai in this fashion, we analyze the changes between the models. As part of the analysis, we also characterize the various stages of the abnormal traffic regime, from the moment a road incident occurs until traffic is back to normal. Our analysis thus contributes a better understanding of the extent to which a prediction model can be quickly and directly adapted in response to abrupt disruptions. To our best knowledge, no such analysis of the specific changes in modelling between the two traffic regimes has been published before.", "datePublished": "2017", "url": "https://heart-web.org/abstracts/2017/hEART2017_paper_97.html", "mainEntityOfPage": "https://heart-web.org/abstracts/2017/hEART2017_paper_97.html", "isPartOf": {"@type": "Event", "name": "hEART 2017: 6th Symposium of the European Association for Research in Transportation", "startDate": "2017-09-12"}, "encoding": {"@type": "MediaObject", "contentUrl": "https://heart-web.org/abstracts/2017/hEART2017_paper_97.pdf", "encodingFormat": "application/pdf"}}</script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/heart.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container py-3">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-3">
+      <a class="navbar-brand d-flex align-items-center text-decoration-none" href="../../index.html">
+        <img src="../../assets/hEART-LOGO.png" alt="hEART logo" height="52">
+        <div class="ms-3">
+          <div class="brand-title">hEART</div>
+          <div class="brand-subtitle">European Association for Research in Transportation</div>
+        </div>
+      </a>
+      <nav class="navbar navbar-expand p-0">
+        <div class="navbar-nav ms-lg-auto">
+          <a class="nav-link " href="../../index.html">Home</a>
+          <a class="nav-link " href="../../members.html">Members</a>
+          <a class="nav-link " href="../../committee.html">Committee</a>
+          <a class="nav-link active fw-semibold" href="../../conferences.html">Conferences</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container py-4">
+
+<article class="institutional-card p-4 p-md-5">
+  <p class="text-muted mb-2"><a href="../../2017.html">hEART 2017 conference papers</a></p>
+  <h1>Prediction Model Adaptation in Response to Traffic Disruptions</h1>
+  <p class="lead">Francisco Camara Pereira, Raghuveer Kamalakar, Inon Peled</p>
+  <dl class="row mb-4">
+    <dt class="col-sm-3">Conference</dt>
+    <dd class="col-sm-9">hEART 2017: 6th Symposium of the European Association for Research in Transportation (2017)</dd>
+    <dt class="col-sm-3">Publication year</dt>
+    <dd class="col-sm-9">2017</dd>
+  </dl>
+  <section aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading" class="h4 section-title">Abstract</h2>
+    <p>Under normal conditions, traffic is prone to behave in a rather predictable manner. For instance, a road segment typically experiences similar travel times at the same moment each week ; congestion appears and disappears in peak hours at recurring locations ; the number of vehicles entering and exiting a highway is similar each weekday. Consequently, a model trained over enough traffic data can yield satisfactory predictions on most occasions. However, such a model can perform very inaccurately when applied to abnormal traffic conditions. Alas, it is during unforeseen traffic disruptions — such as road blockage due to accident or force of nature — that good prediction quality is most needed. The adverse effects of such incidents propagate from where they occur into the rest of the road network. It is therefore reasonable to expect that a prediction model Mpormat; fit for ordinary traffic conditions, will perform poorly during extraordinary traffic conditions. Abnormal traffic conditions thus require a different, specifically adapted prediction model Mabnormal, Which is highly distinguishable from Mpormai- For example, the two models can differ not only in the values of parameters, but also in the variables they actually depend on. This discernment encourages some questions:</p>
+<p>e@ What are the major changes between Mpormat and Mabnormal?</p>
+<p>e How much degradation does Mnormai experience when applied to abnormal conditions?</p>
+<p>e When a road incident occurs, can we directly calibrate Mapnormal given the incident properties, e.g.           location and time, network topology, and capacity reduction?</p>
+<p>Summarized into one research question, we can ask:</p>
+<p>e Given the parameters of a road incident, how effectively can we transition between Myormat ANd Mabnormal — from the onset of the incident, through its aftermath, and until it is cleared?</p>
+<p>Traditional machine learning methods for answering this question, such as Dynamical Systems and Time Series analysis, typically expect smooth dynamics. That is, whenever disruptions occur, a recovery period is required to collect enough data for the models to re-calibrate. However, the wait might be too long to afford, particularly in case of incidents which require quick response by road practitioners and rescue personnel. In this work, we study the research question using micro-simulations based on real-world data from freeways. This approach has several advantages. It alleviates the dependency on incidents data, which is often limited. It also allows a high degree of freedom in choosing parameters and features. And multiple simulations, each perturbed differently, can yield stable models through repeated training. The real-world data for our simulations consists of daily traffic counts for the Hillergdvej motorway, located in the Greater Copenhagen Area in Denmark. Stretching over about 11 km, this highway faces routine congestion for numerous reasons: inadequate capacity, frequent changes in infrastructure, non-recurrent incidents, and lack of room for emergency parking. This motorway is therefore an appealing candidate for modelling and study. Our main tool for designing and executing micro-simulations is PTV Vissim, which is well-suited for freeway modeling involving complex interactions. Rich literature is available regarding proper calibration of PTV Vissim for realistic simulation of traffic behavior. We use it to construct and train the aforementioned models independently:   ‘normal iS trained over incident-free simulations, whereas Mabnormal is trained over simulations where a road blockage forms for some time. Having constructed Mnormat and Mabnormai in this fashion, we analyze the changes between the models. As part of the analysis, we also characterize the various stages of the abnormal traffic regime, from the moment a road incident occurs until traffic is back to normal. Our analysis thus contributes a better understanding of the extent to which a prediction model can be quickly and directly adapted in response to abrupt disruptions. To our best knowledge, no such analysis of the specific changes in modelling between the two traffic regimes has been published before.</p>
+  </section>
+  <div class="mt-4"><a class="btn btn-primary" href="hEART2017_paper_97.pdf">Download the PDF</a></div>
+  <section class="mt-5" aria-labelledby="citation-heading">
+    <h2 id="citation-heading" class="h4 section-title">How to cite</h2>
+    <p>Francisco Camara Pereira; Raghuveer Kamalakar; Inon Peled (2017). Prediction Model Adaptation in Response to Traffic Disruptions. In: hEART 2017: 6th Symposium of the European Association for Research in Transportation.</p>
+  </section>
+</article>
+
+</main>
+
+<footer class="container py-4 small">
+  <div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+    <span><strong>hEART</strong> — European Association for Research in Transportation</span>
+    <span>Generated on 2026-08-23 by Michel Bierlaire.</span>
+  </div>
+</footer>
+</body>
+</html>
