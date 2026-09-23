@@ -647,8 +647,10 @@ def render_discovery_files(conferences: list[dict[str, Any]]) -> None:
             urls.append(
                 f"{SITE_URL}/abstracts/{year}/{paper_page_filename(pdf_file, paper.get('title', ''))}"
             )
-            if (ABSTRACTS / str(year) / pdf_file).exists():
-                urls.append(f"{SITE_URL}/abstracts/{year}/{url_path(pdf_file)}")
+            # Keep the HTML abstract page as the sitemap's article URL. The
+            # corresponding PDF is linked through citation_pdf_url, which lets
+            # Google Scholar associate the full text with the bibliographic
+            # metadata instead of processing the PDF as a separate article.
     urlset = "\n".join(
         f"  <url><loc>{html.escape(url, quote=True)}</loc></url>"
         for url in sorted(set(urls))
