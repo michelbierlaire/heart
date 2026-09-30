@@ -907,18 +907,6 @@
     institution: universit_gustave_eiffel
     legacy_id: '52'
   legacy_id: LatiOukh
-- id: antonio_pais_antunes
-  title: Prof.
-  first_name: Antonio
-  last_name: Pais Antunes
-  email: antunes@dec.uc.pt
-  unit: university_of_coimbra_spatial_planning_and_transportation_engineering_unit
-  active: true
-  roles:
-  - role: institution_representative
-    institution: university_of_coimbra
-    legacy_id: '18'
-  legacy_id: AntoPais
 - id: markos_papageorgiou
   title: Prof.
   first_name: Markos
