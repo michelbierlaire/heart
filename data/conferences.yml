@@ -190,6 +190,8 @@
   chairs:
   - person: klaus_bogenberger
     order: 1
+  - person: constantinos_antoniou
+    order: 2
   legacy_id: 14
 - id: heart_2026_heart_2026_14th_symposium_of_the_european_association_for_research_in_transportation
   year: 2026

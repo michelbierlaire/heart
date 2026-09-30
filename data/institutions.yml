@@ -92,6 +92,11 @@
   country: gb
   is_heart_member: true
   legacy_id: UNKIICL
+- id: instituto_superior_tecnico
+  name: Instituto Superior Técnico, University of Lisbon
+  url: https://tecnico.ulisboa.pt/en/
+  country: pt
+  is_heart_member: true
 - id: israel_institute_of_technology
   name: Israel Institute of Technology
   url: http://www1.technion.ac.il/en

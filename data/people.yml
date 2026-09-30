@@ -3,7 +3,7 @@
   first_name: Constantinos
   last_name: Antoniou
   email: c.antoniou@tum.de
-  url: http://www.tse.bgu.tum.de/en/staff/cantoniou/
+  url: https://www.mos.ed.tum.de/en/vvs/mitarbeiterinnen/constantinos-antoniou/
   unit: tum_department_of_mobility_systems_engineering
   active: true
   roles:
@@ -11,6 +11,9 @@
   - role: conference_chair
     conference: heart_2018_heart_2018_7th_symposium_of_the_european_association_for_research_in_transportation
     order: 1
+  - role: conference_chair
+    conference: heart_2025_heart_2025_13th_symposium_of_the_european_association_for_research_in_transportation
+    order: 2
   - role: institution_representative
     institution: tum
     legacy_id: '44'
@@ -960,23 +963,6 @@
   roles:
   - role: committee_member
   legacy_id: FranPeir
-- id: magda_pitsiava_latinopoulou
-  title: Prof.
-  first_name: Magda
-  last_name: Pitsiava-Latinopoulou
-  email: mpitsiav@civil.auth.gr
-  url: http://www.civil.auth.gr/component/option,com_contact/task,view/contact_id,113/Itemid,61/lang,en/
-  unit: aut_tel
-  active: true
-  roles:
-  - role: institution_representative
-    institution: aut
-    legacy_id: '26'
-  keywords:
-  - land use and transport interaction
-  - sustainable mobility
-  - traffic management
-  legacy_id: MagdPits
 - id: ioannis_politis
   title: Dr.
   first_name: Ioannis
@@ -1059,6 +1045,15 @@
   unit: epfl_transportation_center
   active: true
   legacy_id: RiccScar
+- id: sergio_filipe_assuncao_batista
+  first_name: Sérgio Filipe
+  last_name: Assunção Batista
+  email: sergio.batista@tecnico.ulisboa.pt
+  unit: instituto_superior_tecnico_department_of_engineering_and_management
+  active: true
+  roles:
+  - role: institution_representative
+    institution: instituto_superior_tecnico
 - id: marie_schmidt
   title: Dr.
   first_name: Marie

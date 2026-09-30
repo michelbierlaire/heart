@@ -23,6 +23,10 @@
   url: https://www.imperial.ac.uk/transport-engineering/
   institution: imperial_college_london
   legacy_id: ICLTRANSP
+- id: instituto_superior_tecnico_department_of_engineering_and_management
+  name: Department of Engineering and Management
+  url: https://deg.tecnico.ulisboa.pt/en/about
+  institution: instituto_superior_tecnico
 - id: kth_centre_for_transport_studies
   name: Centre for Transport Studies
   url: http://www.kth.se/abe/centra/cts?l=en_UK
