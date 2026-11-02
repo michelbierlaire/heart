@@ -422,6 +422,9 @@ def render_conferences(conferences: list[dict[str, Any]]) -> None:
         has_abstracts = bool(read_papers(year))
         abstract_status = "Abstracts available" if has_abstracts else "No abstracts available"
         abstract_badge_class = "badge-abstracts" if has_abstracts else "badge-no-abstracts"
+        dates_and_city = " · ".join(
+            esc(value) for value in (c.get("dates"), c.get("city")) if value
+        )
         cards.append(
             f"""
 <div class="col-md-6 col-lg-4">
@@ -432,7 +435,7 @@ def render_conferences(conferences: list[dict[str, Any]]) -> None:
           {esc(c.get("year"))} — {esc(c.get("name"))}
         </a>
       </h2>
-      <p class="mb-1">{esc(c.get("dates"))}</p>
+      <p class="mb-1">{dates_and_city}</p>
       <span class="badge rounded-pill {abstract_badge_class} mt-2">{abstract_status}</span>
     </div>
   </div>

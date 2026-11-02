@@ -139,6 +139,7 @@ def create_schema(connection: sqlite3.Connection) -> None:
             name TEXT NOT NULL,
             url TEXT,
             venue_institution_id INTEGER,
+            city TEXT,
             period TEXT,
             start_date TEXT,
             end_date TEXT,
@@ -297,6 +298,7 @@ def insert_conferences(
                 name,
                 url,
                 venue_institution_id,
+                city,
                 period,
                 start_date,
                 end_date,
@@ -304,7 +306,7 @@ def insert_conferences(
                 abstracts_available,
                 comments
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 ids[conference["id"]],
@@ -313,6 +315,7 @@ def insert_conferences(
                 conference["name"],
                 conference.get("url"),
                 institution_ids.get(conference.get("venue")),
+                conference.get("city"),
                 conference.get("period"),
                 sqlite_value(conference.get("start_date")),
                 sqlite_value(conference.get("end_date")),

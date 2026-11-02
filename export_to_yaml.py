@@ -433,15 +433,20 @@ def export_conferences(
     conference_slugs: dict[int, str],
 ) -> None:
     """Export conferences."""
+    conference_columns = {
+        row["name"] for row in fetch_all(connection, "PRAGMA table_info(conference)")
+    }
+    city_column = "city" if "city" in conference_columns else "NULL AS city"
     rows = fetch_all(
         connection,
-        """
+        f"""
         SELECT id,
                old_id,
                year,
                name,
                url,
                venue_institution_id,
+               {city_column},
                period,
                is_finished,
                abstracts_available,
@@ -460,6 +465,7 @@ def export_conferences(
                     "name": row["name"],
                     "url": row["url"],
                     "venue": institution_slugs.get(row["venue_institution_id"]),
+                    "city": row.get("city"),
                     "period": row["period"],
                     "is_finished": bool(row["is_finished"]),
                     "abstracts_available": bool(row["abstracts_available"]),
