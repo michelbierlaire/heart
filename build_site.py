@@ -379,13 +379,37 @@ def render_members(members: pd.DataFrame) -> None:
 
 
 def render_committee(committee: pd.DataFrame) -> None:
-    rows = []
+    current_rows = []
+    past_rows = []
     for _, c in committee.iterrows():
-        rows.append(
+        status = str(c.get("status") or "")
+        if status == "past member":
+            past_rows.append(
+                f"""
+<tr>
+  <td>{link(c.get("name"), c.get("member_url"))}</td>
+  <td>{link(c.get("department"), c.get("department_url"))}</td>
+  <td>{link(c.get("university"), c.get("university_url"))}</td>
+</tr>
+"""
+            )
+            continue
+
+        statuses = {label.strip() for label in status.split(",")}
+        role_badges = []
+        if "chair" in statuses:
+            role_badges.append(
+                '<span class="badge rounded-pill text-bg-primary">Chair</span>'
+            )
+        if "member" in statuses:
+            role_badges.append(
+                '<span class="badge rounded-pill bg-light text-dark border">Member</span>'
+            )
+        current_rows.append(
             f"""
 <tr>
   <td>{link(c.get("name"), c.get("member_url"))}</td>
-  <td>{esc(c.get("status"))}</td>
+  <td><div class="d-flex flex-wrap gap-1">{"".join(role_badges) or "—"}</div></td>
   <td>{link(c.get("department"), c.get("department_url"))}</td>
   <td>{link(c.get("university"), c.get("university_url"))}</td>
 </tr>
@@ -394,21 +418,41 @@ def render_committee(committee: pd.DataFrame) -> None:
 
     body = f"""
 <h1 class="section-title">Committee</h1>
+<section aria-labelledby="current-committee-heading" class="mb-5">
+<h2 id="current-committee-heading" class="h4 section-title">Current committee</h2>
 <div class="table-responsive institutional-card">
 <table class="table table-hover align-middle mb-0">
 <thead class="table-light">
 <tr>
   <th>Name</th>
-  <th>Status</th>
+  <th>Role</th>
   <th>Department</th>
   <th>University</th>
 </tr>
 </thead>
 <tbody>
-{''.join(rows)}
+{''.join(current_rows)}
 </tbody>
 </table>
 </div>
+</section>
+<section aria-labelledby="past-committee-heading">
+<h2 id="past-committee-heading" class="h4 section-title">Past committee members</h2>
+<div class="table-responsive institutional-card">
+<table class="table table-hover align-middle mb-0">
+<thead class="table-light">
+<tr>
+  <th>Name</th>
+  <th>Department</th>
+  <th>University</th>
+</tr>
+</thead>
+<tbody>
+{''.join(past_rows)}
+</tbody>
+</table>
+</div>
+</section>
 """
     (DOCS / "committee.html").write_text(page("hEART committee", body, "committee"), encoding="utf-8")
 
